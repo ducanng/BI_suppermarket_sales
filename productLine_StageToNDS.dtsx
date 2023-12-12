@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="productLine_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="39"
-  DTS:VersionGUID="{A35AFC77-D523-4CA0-89C7-36A3A6137699}">
+  DTS:VersionBuild="40"
+  DTS:VersionGUID="{654D0928-692B-4F03-977F-0FE26AFEA947}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAHie/d4l+OMBGkHUb9wTaeITXHetRlaD8k4vsSYWt+1QAAAAAOgAAAAAIAACAAAACZybmxVHUPpQ7yjadZ9JKe2rR6Spi+NViTYpYxgYt0dCAAAAAz3AI1sIhFmdIJyQd31i1HqmBReorfdzZiYu+MH5Ag2EAAAAB0fhFLjbk2+QjxZJA8oS8b6ZPkDB5cYTZv7yfJCIHWlQzT/hu2nxFxRPReX9RH8BRXKeUVNgjlggtbHiq0NbJa</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADfbJTvR26OhgjT4U3fVN5OzMlvHQBXhN5RQpRXc0KuhQAAAAAOgAAAAAIAACAAAADZool+HXmQSs/pduinGhYE1ZmUIZFx+F6xWv8/Pj+r2iAAAADBpfzQ60+xRnD4QdmN+6EA1nLqdL/AhesDM9nTjspJ0UAAAABf0YL0Gm8DQGlnq/HFXbMdK10WGRuWjodK32x4LSRMFVSyShY1bHutKcFDvAeVwuTKVr+5lJoIhewU4DG0MlMh</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAGu38eQOAeN0r3+DSDXhNuY/YSaPS+2h1otJojUDr4/AAAAAAOgAAAAAIAACAAAAD5KMyoyqZ/+79Pq1+YrZiyptZlII+zjbazRe3VUBLLjCAAAACZuQxRx9lZCDNqHBP31NnYpFT3ZcGWF5voJZ6zGSW+60AAAACi5bRcDFtQkgYxBUhz67o0N7J95+Og4wxinJSAcTCRY8PFm+9esK2QZAiY3I3/tFbg4kHTLSXYXMbMsBA2Iw+X</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAQCGXkp11F1n1Kgzagdemz/UmuHid8UI47T7lJjsu8tQAAAAAOgAAAAAIAACAAAABtpfFS98nq26nQ6OWDOyHNY9geFaupEVMAUjmuQPIe1iAAAABBviIvQ2OQZbOfmwx9N+xgKjBDE7OQQDGMb0IESA7JiEAAAACUEcFXJ8Ufj6BybotPvarcHutzIFk+BgXHHpY6zdGK0Matj1EG8AIgfwhfou+1SK+qdDtwj52JJNtWpVZXYgpp</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuKp6bYDWww6KDTcJ1uQBwvWpDA1imWXIIiJu93xD8KQAAAAAOgAAAAAIAACAAAAABJMDO1dsvJ6Pywnnv/OjGx4QNaygiVsQsrDaeRbWbQyAAAACd7IW/tsFqDohk3PZn+lhTkW3hUo7+vUHoVQfhcwlIgUAAAAAZRuz+NPZhLr0u/6kvMEkKPrJXiNc2OBGCbgh49s/kIDT8XRzSojR7/pwNaib8YyJK0NHR8jq8eYWTJ4NVBi5z</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADE5zdrDR7R6p2C3hKSxUwRs5RtH9z/uGSDT7outS+CyAAAAAAOgAAAAAIAACAAAABSE/jH18Oh1bJUtJpnFHQUgS6okIlMBtxFVDzaqp+DTiAAAABUZ4oa9/6MIh3JYnR2HlEG4uEjnzrl63XAmkotILP46UAAAADvbI7SWdUSdGpHCzbQUFn7dja/NJAiEuXBY5w618VIPUJVfBSrsgbq+PMD9sRPFrGd1thB/z+0i6pcd/ysDIh+</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -826,24 +826,24 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
                       lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[sourceID]"
-                      cachedDataType="i4"
-                      cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[ProductLineID]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="ProductLineID"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[updatedAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="updatedAt"
                       externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       lineageId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[ProductLineID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ProductLineID"
+                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[sourceID]"
+                      cachedDataType="i4"
+                      cachedName="sourceID"
+                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1170,9 +1170,21 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="174,42"
+          Id="Package\Data Flow Task\derrived UpdatedAt"
+          TopLeft="36,254" />
+        <NodeLayout
           Size="168,42"
           Id="Package\Data Flow Task\check productLineID"
           TopLeft="164,165" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Data Flow Task\insert productLine to NDS"
+          TopLeft="308,354" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Data Flow Task\update productLine"
+          TopLeft="33,366" />
         <NodeLayout
           Size="216,46"
           Id="Package\Data Flow Task\get productLine from stage"
@@ -1181,6 +1193,10 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
           Size="158,42"
           Id="Package\Data Flow Task\Add col sourceID"
           TopLeft="176,85" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt"
+          TopLeft="299,263" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="251.5,54">
@@ -1203,72 +1219,6 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="251.5,127">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="174,42"
-          Id="Package\Data Flow Task\derrived UpdatedAt"
-          TopLeft="36,254" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Lookup Match Output]"
-          TopLeft="221.333333333333,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-98.3333333333333,47"
-              Start="0,0"
-              End="-98.3333333333333,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.0660377358491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.0660377358491"
-                    Point2="0,19.0660377358491"
-                    Point3="-4,19.0660377358491" />
-                  <mssgle:LineSegment
-                    End="-94.3333333333333,19.0660377358491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-94.3333333333333,19.0660377358491"
-                    Point2="-98.3333333333333,19.0660377358491"
-                    Point3="-98.3333333333333,23.0660377358491" />
-                  <mssgle:LineSegment
-                    End="-98.3333333333333,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-97.3580533854167,24.0660377358491,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="208,42"
-          Id="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt"
-          TopLeft="299,263" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup No Match Output]"
           TopLeft="274.666666666667,207">
@@ -1305,36 +1255,42 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Data Flow Task\update productLine"
-          TopLeft="33,366" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="123.5,296">
+          Id="Package\Data Flow Task.Paths[Lookup Match Output]"
+          TopLeft="221.333333333333,207">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,70"
+              EndConnector="-98.3333333333333,47"
               Start="0,0"
-              End="0,62.5">
+              End="-98.3333333333333,39.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.5" />
+                    End="0,15.0660377358491" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.0660377358491"
+                    Point2="0,19.0660377358491"
+                    Point3="-4,19.0660377358491" />
+                  <mssgle:LineSegment
+                    End="-94.3333333333333,19.0660377358491" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-94.3333333333333,19.0660377358491"
+                    Point2="-98.3333333333333,19.0660377358491"
+                    Point3="-98.3333333333333,23.0660377358491" />
+                  <mssgle:LineSegment
+                    End="-98.3333333333333,39.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-97.3580533854167,24.0660377358491,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Data Flow Task\insert productLine to NDS"
-          TopLeft="308,354" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output2]"
           TopLeft="402,305">
@@ -1357,6 +1313,50 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
+          TopLeft="123.5,296">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70"
+              Start="0,0"
+              End="0,62.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="251.5,127">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -1366,7 +1366,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1376,7 +1376,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1384,7 +1384,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\get productLine from stage">
+    design-time-name="Package\Data Flow Task\insert productLine to NDS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1397,7 +1397,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\insert productLine to NDS">
+    design-time-name="Package\Data Flow Task\get productLine from stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
