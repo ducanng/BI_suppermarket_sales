@@ -78,6 +78,15 @@ create table dbo.nds_productLine
     sourceID      bigint
 );
 
+CREATE TABLE [nds_city] (
+    [CityID] bigint identity primary key,
+    [Branch] NVARCHAR(255),
+    [City] NVARCHAR(255),
+    [CreatedAt] DATETIME,
+    [UpdatedAt] DATETIME,
+    [sourceID] INT
+);
+
 create database stage
 go
 use stage
