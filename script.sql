@@ -2,15 +2,6 @@ create database metadata
 go
 use metadata
 go
-create table DataFlow
-(
-    id   bigint not null
-        primary key,
-    name varchar(64),
-    LSET datetime,
-    CET  datetime
-)
-go
 create table dbo.DataFlow
 (
     id   bigint not null
@@ -36,23 +27,16 @@ create database nds
 go
 use nds
 go
-create table dbo.TB_TRANSACTION
+create table dbo.nds_city
 (
-    transaction_id        bigint,
-    transaction_date      date,
-    transaction_time      time,
-    transaction_qty       varchar(50),
-    store_id              bigint,
-    product_id            bigint,
-    unit_price            decimal(18, 2),
-    product_category      varchar(50),
-    product_type          varchar(50),
-    product_detail        varchar(50),
-    transaction_date_time datetime,
-    product_cate_id       bigint,
-    product_type_id       bigint
+    CityID    bigint identity
+        primary key,
+    Branch    nvarchar(255),
+    City      nvarchar(255),
+    CreatedAt datetime,
+    UpdatedAt datetime,
+    sourceID  int
 );
-
 create table dbo.nds_product
 (
     ProductID     bigint identity
@@ -76,6 +60,48 @@ create table dbo.nds_productLine
     CreatedAt     datetime,
     UpdatedAt     datetime,
     sourceID      bigint
+);
+create table dbo.nds_customer
+(
+    CustomerID   bigint identity
+        primary key,
+    CustomerType nvarchar(255),
+    Gender       nvarchar(255),
+    sourceID     bigint,
+    CreatedAt    datetime,
+    UpdatedAt    datetime,
+    constraint nds_customer_pk
+        unique (CustomerType, Gender)
+);
+create table dbo.nds_invoice
+(
+    InvoiceID  bigint identity
+        primary key,
+    InvoiceNK  nvarchar(255),
+    CityID     bigint,
+    CustomerID bigint,
+    DTime      datetime,
+    Payment    nvarchar(255),
+    Rating     float,
+    sourceID   int,
+    CreatedAt  datetime,
+    UpdatedAt  datetime
+);
+create table dbo.nds_invoiceDetail
+(
+    InvoiceDetailID       bigint identity
+        primary key,
+    InvoiceID             bigint,
+    ProductID             bigint,
+    Quantity              float,
+    Tax                   float,
+    Total                 float,
+    Cogs                  float,
+    GrossMarginPercentage float,
+    GrossIncome           float,
+    sourceID              bigint,
+    CreatedAt             datetime,
+    UpdatedAt             datetime
 );
 
 create database stage
