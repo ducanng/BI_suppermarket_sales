@@ -2,12 +2,12 @@ create database dds
 go
 use dds
 go
-drop table dbo.factProductSales
-drop table dbo.dimDate
+-- drop table dbo.factProductSales
+-- drop table dbo.dimDate
 
-drop table dbo.dimProduct
-drop table dbo.dimBranch
-drop table dbo.dimInvoice
+-- drop table dbo.dimProduct
+-- drop table dbo.dimBranch
+-- drop table dbo.dimInvoice
 
 
 
@@ -98,18 +98,18 @@ create table dbo.factProductSales
     ,UpdatedAt datetime 
     ,CONSTRAINT pk_fact_product_sales
     primary key (invoiceID)
-    ,CONSTRAINT fk_fact_product_sales_dim_date
-    FOREIGN key (salesDateID)
-    REFERENCES dimDate(dateID)
-    ,CONSTRAINT fk_fact_product_sales_dim_product
-    FOREIGN key (productID)
-    REFERENCES dimProduct(productID)
-    ,CONSTRAINT fk_fact_product_sales_dim_branch
-    FOREIGN key (branchID)
-    REFERENCES dimBranch(branchID)
-    ,CONSTRAINT fk_fact_product_sales_dim_invoice
-    FOREIGN key (invoiceID)
-    REFERENCES dimInvoice(invoiceID)
+    -- ,CONSTRAINT fk_fact_product_sales_dim_date
+    -- FOREIGN key (dateID)
+    -- REFERENCES dimDate(dateID)
+    -- ,CONSTRAINT fk_fact_product_sales_dim_product
+    -- FOREIGN key (productID)
+    -- REFERENCES dimProduct(productID)
+    -- ,CONSTRAINT fk_fact_product_sales_dim_branch
+    -- FOREIGN key (branchID)
+    -- REFERENCES dimBranch(branchID)
+    -- ,CONSTRAINT fk_fact_product_sales_dim_invoice
+    -- FOREIGN key (invoiceID)
+    -- REFERENCES dimInvoice(invoiceID)
 )
 
 
