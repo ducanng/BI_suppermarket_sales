@@ -1,0 +1,67 @@
+--cau1 thong ke so thanh vien mua hang theo ngay thang nam
+SELECT
+    [Measures].[Fact Count] ON COLUMNS,
+	[DATE DIM].[Hierarchy].members on rows
+FROM 
+    [supermarket Dw]
+WHERE
+    ([INVOICE DIM].[Customer Type].[Member])
+--- mdx cau 2 thong ke doanh thu khach hang(membr,normal) theo ngay,thang,nam va theo chi nhanh
+SELECT 
+    [Measures].[Total] ON COLUMNS,
+    {
+	{[invoice dim].[Customer Type].[Customer type].[Member],
+	[INVOICE DIM].[Customer Type].[Customer type].[Normal] }
+	*[date dim].[Hierarchy].MEMBERS
+	*[branch dim].[Hierarchy].MEMBERS } ON ROWS
+FROM 
+    [supermarket Dw]
+
+	--mdxcau 3 thong ke so luong khach hang o theo cash/
+	--debit/ewallet o tung chi nhanh theo tung chi nhanh
+	--trong nam
+select 
+ [Measures].[INVOICE DIM Count] on columns, 
+ {	
+	[branch dim].[Hierarchy].MEMBERS
+	*[date dim].[Hierarchy].MEMBERS
+	*{ [INVOICE DIM].[Payment].[Payment].[Cash],
+	 [INVOICE DIM].[Payment].[Payment].[credit card],
+	 [INVOICE DIM].[Payment].[Payment].[ewallet]}
+	}on rows
+FROM 
+    [supermarket Dw]
+
+	-- cau 4 thong ke luong rating cua khach hang theo tung loai san pham
+
+select
+[Measures].[Rating]  on columns,
+{
+{[invoice dim].[Customer Type].[Customer type].[Member],
+	[INVOICE DIM].[Customer Type].[Customer type].[Normal] }
+	*[PRODUCT DIM].[Product].members
+} on rows
+FROM 
+    [supermarket Dw]
+
+--cau 5 thong ke luong san pham ban duoc theo tung thoi diem
+select [Measures].[Quantity] on columns,
+{
+	[DATE DIM].[Hierarchy].members*[INVOICE DIM].[Hierarchy].MEMBERS
+} on rows
+FROM 
+    [supermarket Dw]
+
+--cau 6 thong ke so luong khach hang nu da mua theo tung loai san pham
+SELECT [Measures].[FACT Count] ON COLUMNS,
+{
+	[PRODUCT DIM].[Product].MEMBERS
+}ON ROWS
+FROM 
+    [supermarket Dw]
+WHERE
+    ([INVOICE DIM].[GENDER].[Female])
+
+
+
+
