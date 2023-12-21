@@ -113,22 +113,22 @@ create table dbo.factProductSales
 )
 
 
-select ni.InvoiceID as invoiceID,
-    CONVERT(INT, CONVERT(VARCHAR(8), DTime      , 112)) as dateID,
-    CityID as branchID, 
-    nid.productID as productID, 
-    nid.Quantity as quantity, 
-    nid.Tax as tax, 
-    nid.Total as total, 
-    nid.Cogs  as cogs, 
-    nid.GrossMarginPercentage as grossMarginPercentage, 
-    nid.GrossIncome as grossIncome,
-    ni.Rating as rating,
-    ni.sourceID as sourceID,
-    getdate() as CreatedAt,
-    getdate() as UpdatedAt
-from nds_invoice as ni
-join nds_invoiceDetail as nid 
-on ni.InvoiceID = nid.InvoiceID
-where (CreatedAt >= ? and CreatedAt< ?)
-or (UpdatedAt>= ? and UpdatedAt< ?)
+-- select ni.InvoiceID as invoiceID,
+--     CONVERT(INT, CONVERT(VARCHAR(8), DTime      , 112)) as dateID,
+--     CityID as branchID, 
+--     nid.productID as productID, 
+--     nid.Quantity as quantity, 
+--     nid.Tax as tax, 
+--     nid.Total as total, 
+--     nid.Cogs  as cogs, 
+--     nid.GrossMarginPercentage as grossMarginPercentage, 
+--     nid.GrossIncome as grossIncome,
+--     ni.Rating as rating,
+--     ni.sourceID as sourceID,
+--     getdate() as CreatedAt,
+--     getdate() as UpdatedAt
+-- from nds_invoice as ni
+-- join nds_invoiceDetail as nid 
+-- on ni.InvoiceID = nid.InvoiceID
+-- where (CreatedAt >= ? and CreatedAt< ?)
+-- or (UpdatedAt>= ? and UpdatedAt< ?)
