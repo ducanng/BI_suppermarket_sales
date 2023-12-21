@@ -114,6 +114,28 @@ create table dbo.nds_invoiceDetail
     UpdatedAt             datetime
 );
 
+CREATE TABLE dbo.nds_city (
+    CityID bigint identity primary key,
+    Branch NVARCHAR(255),
+    City NVARCHAR(255),
+    CreatedAt DATETIME,
+    UpdatedAt DATETIME,
+    sourceID INT
+);
+
+create table dbo.nds_customer
+(
+    CustomerID   bigint identity
+        primary key,
+    CustomerType nvarchar(255),
+    Gender       nvarchar(255),
+    sourceID     bigint,
+    CreatedAt    datetime,
+    UpdatedAt    datetime,
+    constraint nds_customer_pk
+        unique (CustomerType, Gender)
+);
+
 create database stage
 go
 use stage
@@ -136,8 +158,8 @@ create table dbo.invoice
     Quantity              float,
     Tax                   float,
     Total                 float,
-    Date                  datetime,
-    Time                  datetime,
+    [Date]                  datetime,
+    [Time]                  datetime,
     Payment               nvarchar(255),
     Cogs                  float,
     GrossMarginPercentage float,

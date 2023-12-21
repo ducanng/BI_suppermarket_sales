@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.stage.sa"
+  DTS:DTSID="{0DBB2425-65CF-42D7-B5E8-F8465956D0C7}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=stage;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-BI_suppermarket_sales-{0DBB2425-65CF-42D7-B5E8-F8465956D0C7}localhost.stage.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAACAAAAAAAQZgAAAAEAACAAAADuBUYqvFH/7mjLiJa6Si2SiwsTyfSqAXl1pjNFG9WggwAAAAAOgAAAAAIAACAAAAAD4I0/86WSQhvtU+d/VodZ9J4NNBv8KMPlKpu717JEKIAAAACX1R8bOy8a8nduNf2JFs3H3TzipMsjTtLqxNxmMHfKMppilt1C9JB+S2h5DFWR9BrmpFfjIZSMM6spljiPwuGC3qxQC7IlgkT4URjznMVxYpQKVr7vZyGM6s5L4uGjE7yJW2xfc6Z2ElZOpSelbPzKG8L6M5c6ohj4kxFzCakZAUAAAAD/F0XhPTx5kwDpxOc/Dn9Y4imgDKR9g1UVV7W7rKJjUDsbIgL1Y0dDfNNP0F9a3EvgRgUvaYNsIS89MSMcRdum</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
