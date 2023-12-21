@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{C3DB0CFA-1497-4FFE-857F-9844DD37C7B3}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{6E34A370-8437-48CD-AEAE-9E3961000734}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -41,7 +41,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABB1fSClBkiQJcmoH7ct8VCFWIOBg9MiGE55ZZChvfZEQAAAAAOgAAAAAIAACAAAADK49rGgmWn0iF/sH7beIEOnL2Ii5MJhewiyRUPhXhZqCAAAABJ7enk+KD4RfwEijGmVSS4N83cK/kIa+RTjuN2h6A7+0AAAACpU9Z5mlQ6/euqu/mZYL4UXYygWO5d5g7TIDM0I7T3eLF5NA44syu2U7q9dasZpcmbJ5ld2rjZaLoblT/wGiWk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABaW5PdwpWu9ZoxFVyc0ZH17mZV5ZY/OL1NPvIDHZV/jgAAAAAOgAAAAAIAACAAAACBf0FLnCydKCjFTxSP/9ufp1C9dJc/GkC8/vUWhe3ruSAAAAD3QfcdwLkZryfAoBXTyK3MFyj6ZOToqaB1d6JpPFGbmkAAAAAKXEp5J/J8pvQtJ+uD3udVmJe1kdhxGazURx4Ouvfik2KPJlhlHs2EW+jx9ktcHHsj3B1lcC3fgZDzE1MulDgL</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -58,7 +58,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADzH45z+vObit5hEMt1P4RpM7di/DIV+AWHFy+B5RZ68AAAAAAOgAAAAAIAACAAAADyPrMCHw/l+Yw7lBHM22T+rEkOllh7q7wspX7NPiw8ACAAAACdarq2B5nzWV/mSAPUUQJWdxlV/hE80u+myP12qIcqoEAAAAAyrGRRUWOE0UMAvZTpv8koQa1Stod8pjn9Fknu+XPTTZaTLQN91U/gt13k4wWym3byx8fUs88Beqs5P9qgj4B9</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACknkyDFQ1imltD4t4bYy1Dr2gBQxIphXJDFdq+Fw654wAAAAAOgAAAAAIAACAAAADwXcjzb4tetUUI+4zu6NPGtNO/15pkpUxRmmoAN7IQ4SAAAADXtMHooVBAi8BO2Pal2s4DCnttBxRQwTMOti5ACUC0mEAAAABZ6xzFQLrrYA4J8hpvhEVeKWo+f676qQHSefkoQBrmYjk8Mv/zbY6V+EUmP8FMZwt30iT2DUU0Rvqg1de5Tr28</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -75,7 +75,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAKp/iYrX3oqqlsw4LCm9B0pX85kWSOtJNuL5F770uEOwAAAAAOgAAAAAIAACAAAACKlxnMxcqB0Ym2KGn9PNd403cpMFDB7aFnq7W34UUgOiAAAACtf5kVBAhpC4FYqrf6qKgxS6U2930cBkhlOMlGve9mdUAAAABrtvR62zQsRM/bNcOkUDVl6ALggxs/hzImMUOeIhKEmuuSuwuhF5iHohaquvyPeX1gFMo7duceCnk7ieOgrhYA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJzl1KNvm6put2C+mRz30mC71/UFXOv7eBq1uY6caMogAAAAAOgAAAAAIAACAAAACA7AQsuzD25BVG4Fgh2YxgW99+OcgwDpaXBjsUHyyFWiAAAACYJjJOFBQL7KI9yJcdsoJJtJR3QfckOUk/TiC0a4zMhUAAAABxqPVbZZUkUJcd83Oc61yH91BzhbIYtohae2kfr9kng2MN+3npft4hJTxhkWEfOfx6QToMzJidQ258Ja7F6znE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2079,7 +2079,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="truncate city"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2130,7 +2130,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="truncate sales"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2164,7 +2164,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="update LSET and CET to city_stage"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2181,7 +2181,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="update LSET and CET to invoice_stage"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -2317,6 +2317,22 @@
           Size="170,42"
           Id="Package\truncate sales"
           TopLeft="88,120" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\update LSET and CET to city_stage"
+          TopLeft="297,338" />
+        <NodeLayout
+          Size="170,66"
+          Id="Package\update LSET and CET to invoice_stage"
+          TopLeft="85,330" />
+        <NodeLayout
+          Size="169,52"
+          Id="Package\update LSET and CET to product_stage"
+          TopLeft="508,327" />
+        <NodeLayout
+          Size="180,63"
+          Id="Package\update LSET and CET to 'productLine_stage'"
+          TopLeft="716,318" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="172.25,162">
@@ -2405,10 +2421,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170,66"
-          Id="Package\update LSET and CET to invoice_stage"
-          TopLeft="85,330" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
           TopLeft="170.75,270">
@@ -2431,18 +2443,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170,42"
-          Id="Package\update LSET and CET to city_stage"
-          TopLeft="297,338" />
-        <NodeLayout
-          Size="169,52"
-          Id="Package\update LSET and CET to product_stage"
-          TopLeft="508,327" />
-        <NodeLayout
-          Size="180,63"
-          Id="Package\update LSET and CET to 'productLine_stage'"
-          TopLeft="716,318" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
           TopLeft="379.75,271">
@@ -2528,7 +2528,7 @@
     design-time-name="Package\city to stage">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="186,42"
           Id="Package\city to stage\OLE DB Destination 1"
@@ -2560,7 +2560,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -2582,7 +2584,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
