@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="productLine_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{654D0928-692B-4F03-977F-0FE26AFEA947}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{D6B94E0A-1CAA-46D6-94EC-B83F80E31974}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADfbJTvR26OhgjT4U3fVN5OzMlvHQBXhN5RQpRXc0KuhQAAAAAOgAAAAAIAACAAAADZool+HXmQSs/pduinGhYE1ZmUIZFx+F6xWv8/Pj+r2iAAAADBpfzQ60+xRnD4QdmN+6EA1nLqdL/AhesDM9nTjspJ0UAAAABf0YL0Gm8DQGlnq/HFXbMdK10WGRuWjodK32x4LSRMFVSyShY1bHutKcFDvAeVwuTKVr+5lJoIhewU4DG0MlMh</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADx1vmjfMUYuKb3+nFyefkFu1c2HtM6p/VJPW8t6IzgcgAAAAAOgAAAAAIAACAAAADYF8jlFCSArG105trTocX09SbPJW1OHkljkVYXcobxziAAAABO8KyKDgygvslZ2GRViodJi6K2PFYunCH3cTujcEnvGUAAAAAsySNTb67Ea9EfwzOV2js5DUkiWqDDFxBROrNY5gTpeVserx3i5iWAjW1l1JNtgqaw6TFaYQwTbjwh9ns5xZWJ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAQCGXkp11F1n1Kgzagdemz/UmuHid8UI47T7lJjsu8tQAAAAAOgAAAAAIAACAAAABtpfFS98nq26nQ6OWDOyHNY9geFaupEVMAUjmuQPIe1iAAAABBviIvQ2OQZbOfmwx9N+xgKjBDE7OQQDGMb0IESA7JiEAAAACUEcFXJ8Ufj6BybotPvarcHutzIFk+BgXHHpY6zdGK0Matj1EG8AIgfwhfou+1SK+qdDtwj52JJNtWpVZXYgpp</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAIJu4KxPCWd1mAapWPk75w3nVjG1kX1ZCnafrf0RHsfQAAAAAOgAAAAAIAACAAAACmtSNwwCBIEsSPrUoFGWuPgB1HSHDclY7Jx0z3HxlWlyAAAAC6IJIt4PviRwG523ypzkO5XwihPjfv1O/GlzEQltuSgkAAAABMfEZzWjv1Z4E1Zn2V4Xy4conwHAb5XDlLBV8LX2LJ/KHuLefrhX0i76QFkyjtVJ4s6AzevFG8DXbJ3ntjH6RU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADE5zdrDR7R6p2C3hKSxUwRs5RtH9z/uGSDT7outS+CyAAAAAAOgAAAAAIAACAAAABSE/jH18Oh1bJUtJpnFHQUgS6okIlMBtxFVDzaqp+DTiAAAABUZ4oa9/6MIh3JYnR2HlEG4uEjnzrl63XAmkotILP46UAAAADvbI7SWdUSdGpHCzbQUFn7dja/NJAiEuXBY5w618VIPUJVfBSrsgbq+PMD9sRPFrGd1thB/z+0i6pcd/ysDIh+</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC98GdqbMd+xZt6YsUjvEokeZHS2A91vB0FoSswEUeCFgAAAAAOgAAAAAIAACAAAACShHNzkm46TPN0MgmRRfz15lA2eRpgzwkrtCsHtN3qdSAAAAA6HrCLMfkxQYH/f8P+XACHdVHc12xAD7orOUgqp1Xp9UAAAAAyn90ePm8dyEvcZFH6geNvHuSz4nvboT0+6oVR34oKKo7/A/Mt+bwfHeB7ycj4FLCrzzJLnIvvxJm5NdGWriJU</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -119,7 +119,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
-                      dataType="i4"
+                      dataType="i8"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
@@ -130,13 +130,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">10</property>
+                          name="Expression">(DT_I8)10</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">10</property>
+                          name="FriendlyExpression">(DT_I8)10</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -160,148 +160,6 @@
                       refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\check productLineID"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
-              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="check productLineID"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement that generates the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select ProductLineNK from nds_productLine where sourceID = 10</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select ProductLineNK from nds_productLine where sourceID = 10) [refTable]
-where [refTable].[ProductLineNK] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of connection used to access the reference dataset."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the cache type of the lookup table."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">1</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ProductLineNK" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\check productLineID.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.nds.sa1]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.nds.sa1]"
-                  description="Connection manager used to access lookup data."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input]"
-                  name="Lookup Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input].Columns[ProductLineID]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="ProductLineID"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">ProductLineNK</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\check productLineID.Outputs[Lookup Match Output]"
-                  errorOrTruncationOperation="Lookup"
-                  exclusionGroup="1"
-                  name="Lookup Match Output"
-                  synchronousInputId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Task\check productLineID.Outputs[Lookup No Match Output]"
-                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
-                  exclusionGroup="1"
-                  name="Lookup No Match Output"
-                  synchronousInputId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Task\check productLineID.Outputs[Lookup Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Lookup Error Output"
-                  synchronousInputId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\check productLineID.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\check productLineID.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\check productLineID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\check productLineID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -703,7 +561,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
                     <inputColumn
                       refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[sourceID]"
-                      cachedDataType="i4"
+                      cachedDataType="i8"
                       cachedName="sourceID"
                       externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
                       lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
@@ -779,6 +637,178 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </outputs>
             </component>
             <component
+              refId="Package\Data Flow Task\Slowly Changing Dimension"
+              componentClassID="Microsoft.SCD"
+              contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
+              name="Slowly Changing Dimension"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SELECT statement used to create a schema rowset."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [ProductLine], [ProductLineNK], [sourceID] FROM [dbo].[nds_productLine]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
+                  name="CurrentRowWhere"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
+                  name="UpdateChangingAttributeHistory">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
+                  name="FailOnFixedAttributeChange">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the column name for the inferred member."
+                  name="InferredMemberIndicator"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether inferred member updates are detected."
+                  name="EnableInferredMember">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the transformation fails when a lookup of an existing record fails."
+                  name="FailOnLookupFailure">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies that all rows in the input are new or the transformation detects the change type."
+                  name="IncomingRowChangeType"
+                  typeConverter="IncomingRowChangeType">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Connections[LookupConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.nds.sa1]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.nds.sa1]"
+                  description="Defines the connection to use for lookups in the dimension table"
+                  name="LookupConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  name="Slowly Changing Dimension Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Product line]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product line"
+                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
+                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[ProductLineID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ProductLineID"
+                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
+                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
+                      cachedDataType="i8"
+                      cachedName="sourceID"
+                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">4</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductLine" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductLineNK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      dataType="i8"
+                      name="sourceID" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  description="Unchanged rows"
+                  exclusionGroup="1"
+                  name="Unchanged Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[New Output]"
+                  description="New rows"
+                  exclusionGroup="1"
+                  name="New Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  description="Rows with changes in columns tagged FixedAttribute"
+                  exclusionGroup="1"
+                  name="Fixed Attribute Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  description="These rows contain new information for ChangingAttribute (Type 1) column changes"
+                  exclusionGroup="1"
+                  name="Changing Attribute Updates Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  description="HistoricalAttribute (Type 2) changes result in these new rows"
+                  exclusionGroup="2"
+                  name="Historical Attribute Inserts Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  description="Information to update unpopulated initial dimension row"
+                  exclusionGroup="1"
+                  name="Inferred Member Updates Output"
+                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Data Flow Task\update productLine"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
@@ -840,7 +870,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
                     <inputColumn
                       refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[sourceID]"
-                      cachedDataType="i4"
+                      cachedDataType="i8"
                       cachedName="sourceID"
                       externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
                       lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
@@ -931,30 +961,30 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task\check productLineID.Inputs[Lookup Input]"
-              name="Derived Column Output"
-              startId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output]" />
+              refId="Package\Data Flow Task.Paths[Changing Attribute Updates Output]"
+              endId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]"
+              name="Changing Attribute Updates Output"
+              startId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output1]"
+              refId="Package\Data Flow Task.Paths[Derived Column Output]"
               endId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input]"
               name="Derived Column Output"
               startId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output2]"
+              refId="Package\Data Flow Task.Paths[Derived Column Output1]"
               endId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
               startId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Lookup Match Output]"
-              endId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]"
-              name="Lookup Match Output"
-              startId="Package\Data Flow Task\check productLineID.Outputs[Lookup Match Output]" />
+              refId="Package\Data Flow Task.Paths[Derived Column Output2]"
+              endId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              name="Derived Column Output"
+              startId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Lookup No Match Output]"
+              refId="Package\Data Flow Task.Paths[New Output]"
               endId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]"
-              name="Lookup No Match Output"
-              startId="Package\Data Flow Task\check productLineID.Outputs[Lookup No Match Output]" />
+              name="New Output"
+              startId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[New Output]" />
             <path
               refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
               endId="Package\Data Flow Task\Add col sourceID.Inputs[Derived Column Input]"
@@ -1172,139 +1202,41 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         <NodeLayout
           Size="174,42"
           Id="Package\Data Flow Task\derrived UpdatedAt"
-          TopLeft="36,254" />
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Data Flow Task\check productLineID"
-          TopLeft="164,165" />
+          TopLeft="5.49999999999989,213.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\Data Flow Task\insert productLine to NDS"
-          TopLeft="308,354" />
+          TopLeft="942.5,315.5" />
         <NodeLayout
           Size="173,42"
           Id="Package\Data Flow Task\update productLine"
-          TopLeft="33,366" />
+          TopLeft="5.99999999999989,315.5" />
         <NodeLayout
           Size="216,46"
           Id="Package\Data Flow Task\get productLine from stage"
-          TopLeft="140,8" />
+          TopLeft="444.5,5.5" />
         <NodeLayout
           Size="158,42"
           Id="Package\Data Flow Task\Add col sourceID"
-          TopLeft="176,85" />
+          TopLeft="473.5,111.5" />
         <NodeLayout
           Size="208,42"
           Id="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt"
-          TopLeft="299,263" />
+          TopLeft="931.5,213.5" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="251.5,54">
+          TopLeft="552.5,51.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,23.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Lookup No Match Output]"
-          TopLeft="274.666666666667,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="128.333333333333,56"
-              Start="0,0"
-              End="128.333333333333,48.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.7169811320755" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.7169811320755"
-                    Point2="0,22.7169811320755"
-                    Point3="4,22.7169811320755" />
-                  <mssgle:LineSegment
-                    End="124.333333333333,22.7169811320755" />
-                  <mssgle:CubicBezierSegment
-                    Point1="124.333333333333,22.7169811320755"
-                    Point2="128.333333333333,22.7169811320755"
-                    Point3="128.333333333333,26.7169811320755" />
-                  <mssgle:LineSegment
-                    End="128.333333333333,48.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="8.36027994791669,27.7169811320755,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Lookup Match Output]"
-          TopLeft="221.333333333333,207">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-98.3333333333333,47"
-              Start="0,0"
-              End="-98.3333333333333,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.0660377358491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.0660377358491"
-                    Point2="0,19.0660377358491"
-                    Point3="-4,19.0660377358491" />
-                  <mssgle:LineSegment
-                    End="-94.3333333333333,19.0660377358491" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-94.3333333333333,19.0660377358491"
-                    Point2="-98.3333333333333,19.0660377358491"
-                    Point3="-98.3333333333333,23.0660377358491" />
-                  <mssgle:LineSegment
-                    End="-98.3333333333333,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-97.3580533854167,24.0660377358491,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output2]"
-          TopLeft="402,305">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,49"
-              Start="0,0"
-              End="0,41.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1315,18 +1247,18 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="123.5,296">
+          TopLeft="1035.5,255.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,70"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,62.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1337,18 +1269,18 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="251.5,127">
+          TopLeft="92.4999999999999,255.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,30.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1357,32 +1289,90 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Data Flow Task\Slowly Changing Dimension"
+          TopLeft="444.5,218.5" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output2]"
+          TopLeft="552.5,153.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65"
+              Start="0,0"
+              End="0,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[New Output]"
+          TopLeft="660.5,237">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="271,0"
+              Start="0,0"
+              End="263.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="263.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="104.65861328125,5,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Changing Attribute Updates Output]"
+          TopLeft="444.5,237">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-265,0"
+              Start="0,0"
+              End="-257.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-257.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-207.28390625,5,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="S"
+          ParentId="Package\Data Flow Task"
+          FontInfo="{assembly:Null}"
+          Size="35,60"
+          Id="d0082346-c6c7-4f63-9181-10cfe4084550"
+          TopLeft="860,83" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\check productLineID">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\insert productLine to NDS">
     <Properties>
@@ -1406,6 +1396,56 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Slowly Changing Dimension">
+    <Properties>
+      <Property>
+        <Name>SCDMetadata</Name>
+        <Value
+          type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SCDWizardMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionID&gt;{0682A0A7-7E8C-4365-AA8F-85356359160E}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[nds_productLine]&lt;/TableName&gt;
+  &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductLine&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;ProductLineNK&lt;/ColumnName&gt;
+      &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;sourceID&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+  &lt;/InputToColumnsCollection&gt;
+  &lt;GeneratedComponentsIdentificationStrings&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
+    &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
+  &lt;/GeneratedComponentsIdentificationStrings&gt;
+  &lt;FailFixedAttribute&gt;true&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
+  &lt;CurrentIndicatorColumn /&gt;
+  &lt;InferredIndicatorColumn /&gt;
+  &lt;ValueCurrent /&gt;
+  &lt;ValueExpired /&gt;
+  &lt;StartDateColumn /&gt;
+  &lt;EndDateColumn /&gt;
+  &lt;DateVariable /&gt;
+  &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
+&lt;/SCDWizardMetadata&gt;</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
