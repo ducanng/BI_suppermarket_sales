@@ -128,7 +128,7 @@ use dds
 
 create table dbo.dimDate 
 (
-    DateKey                 int not null,
+    dateID                 int not null,
     FullDate                date not null,
     DayNumberOfWeek         tinyint not null,
     DayNameOfWeek           nvarchar(10) not null,
@@ -152,7 +152,7 @@ create table dbo.dimDate
  
     constraint PK_DimDate primary key clustered  
     (
-        DateKey asc
+        dateID asc
     )
 ) 
 go
@@ -162,8 +162,8 @@ declare @DateCalendarStart  datetime,
         @FiscalCounter      datetime,
         @FiscalMonthOffset  int;
  
-set @DateCalendarStart = '2005-01-01';
-set @DateCalendarEnd = '2015-12-31';
+set @DateCalendarStart = '2015-01-01';
+set @DateCalendarEnd = '2025-12-31';
  
 -- Set this to the number of months to add or extract to the current date to get the beginning 
 -- of the Fiscal Year. Example: If the Fiscal Year begins July 1, assign the value of 6 
@@ -185,13 +185,13 @@ as
     where   DateCalendarValue + 1 < = @DateCalendarEnd
 )
  
-insert into dbo.DimDate (DateKey, FullDate, DayNumberOfWeek, DayNameOfWeek, WeekDayType, 
+insert into dbo.DimDate (dateID, FullDate, DayNumberOfWeek, DayNameOfWeek, WeekDayType, 
                         DayNumberOfMonth, DayNumberOfYear, WeekNumberOfYear, MonthNameOfYear, 
                         MonthNumberOfYear, QuarterNumberCalendar, QuarterNameCalendar, SemesterNumberCalendar, 
                         SemesterNameCalendar, YearCalendar, MonthNumberFiscal, QuarterNumberFiscal, 
                         QuarterNameFiscal, SemesterNumberFiscal, SemesterNameFiscal, YearFiscal)
  
-select  cast(convert(varchar(25), DateCalendarValue, 112) as int) as 'DateKey',
+select  cast(convert(varchar(25), DateCalendarValue, 112) as int) as 'dateID',
         cast(DateCalendarValue as date) as 'FullDate',
         datepart(weekday, DateCalendarValue) as 'DayNumberOfWeek',
         datename(weekday, DateCalendarValue) as 'DayNameOfWeek',
