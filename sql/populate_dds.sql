@@ -2,12 +2,12 @@ create database dds
 go
 use dds
 go
-drop table dbo.factProductSales
-drop table dbo.dimDate
+-- drop table dbo.factProductSales
+-- drop table dbo.dimDate
 
-drop table dbo.dimProduct
-drop table dbo.dimBranch
-drop table dbo.dimInvoice
+-- drop table dbo.dimProduct
+-- drop table dbo.dimBranch
+-- drop table dbo.dimInvoice
 
 
 
@@ -98,7 +98,6 @@ create table dbo.factProductSales
     ,UpdatedAt datetime 
     ,CONSTRAINT pk_fact_product_sales
     primary key (invoiceID)
-    
 )
 
 
