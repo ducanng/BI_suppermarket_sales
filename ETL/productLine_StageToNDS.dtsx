@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="productLine_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="44"
-  DTS:VersionGUID="{D6B94E0A-1CAA-46D6-94EC-B83F80E31974}">
+  DTS:VersionBuild="45"
+  DTS:VersionGUID="{1D7932E6-ED1F-4121-A125-BEB2707FFF1F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADx1vmjfMUYuKb3+nFyefkFu1c2HtM6p/VJPW8t6IzgcgAAAAAOgAAAAAIAACAAAADYF8jlFCSArG105trTocX09SbPJW1OHkljkVYXcobxziAAAABO8KyKDgygvslZ2GRViodJi6K2PFYunCH3cTujcEnvGUAAAAAsySNTb67Ea9EfwzOV2js5DUkiWqDDFxBROrNY5gTpeVserx3i5iWAjW1l1JNtgqaw6TFaYQwTbjwh9ns5xZWJ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACA65yY4XncdRoQK/+HdQq5c4KV9aCQ5756Wf0SNblh/wAAAAAOgAAAAAIAACAAAAAkWgrRN7gRHOr+bWMJNy4AhkWGHLWe5BFkJo2pyB4VLyAAAABA602I8tp+N5cubQiN0OEpV8tlOP+S5Am/zT5Uph6CyUAAAAAlLiBSg1mVw04Xatr+LvpOhrGiOOjRnlXp/OeIu51ziPzxK44OWTkQyyJXZZxMHvIZQcKLtm50bFyjvWlXFB5w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAIJu4KxPCWd1mAapWPk75w3nVjG1kX1ZCnafrf0RHsfQAAAAAOgAAAAAIAACAAAACmtSNwwCBIEsSPrUoFGWuPgB1HSHDclY7Jx0z3HxlWlyAAAAC6IJIt4PviRwG523ypzkO5XwihPjfv1O/GlzEQltuSgkAAAABMfEZzWjv1Z4E1Zn2V4Xy4conwHAb5XDlLBV8LX2LJ/KHuLefrhX0i76QFkyjtVJ4s6AzevFG8DXbJ3ntjH6RU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdoZGqEfMCFObuI0Xp6jXX/gXfEoGUmgE9ShCAQedhkAAAAAAOgAAAAAIAACAAAADUZTHJqS5oC0x5dnw4CA4UB4OU7ESJ4LFfUdMLXcp4jiAAAADELeMeJPKDdrxtYTjqCUll+M5Eo7LbkFPo0CUtJ+G9yEAAAADanMCpf/ufmLCF9ZuAPRSa4qnch2hczDPVkL+zwsvrSmR/Mih4F1NUeF66Y7ZLHkZB93APrSpO8Fu6bfER+yxy</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC98GdqbMd+xZt6YsUjvEokeZHS2A91vB0FoSswEUeCFgAAAAAOgAAAAAIAACAAAACShHNzkm46TPN0MgmRRfz15lA2eRpgzwkrtCsHtN3qdSAAAAA6HrCLMfkxQYH/f8P+XACHdVHc12xAD7orOUgqp1Xp9UAAAAAyn90ePm8dyEvcZFH6geNvHuSz4nvboT0+6oVR34oKKo7/A/Mt+bwfHeB7ycj4FLCrzzJLnIvvxJm5NdGWriJU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADF/KJ9dzdqFugqDhHUMwLIrpwMTAFMAnxvaiPJNcrIgwAAAAAOgAAAAAIAACAAAABhu1JW0fzzob9JedIBcsA75E3rRKNi1DVVsTTt7722iCAAAAADggaYy+W3/J+a0ZKhYc8x7OUfIXYrZBpXRFBVBR9LpkAAAAB+IrKlfVGAdiw9gPHYJCFZU0Imx/OqD3NbTM8jqc2LA1IwvyA3jBg6siI4hhwgSoha4OPP+R8rVS7Ag4vKczx7</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,13 +71,45 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Data Flow Task"
+      DTS:refId="Package\get LSET from metadata"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{4F0309BA-B4F3-426B-84C0-78EE9D6E9CC2}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="get LSET from metadata"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables>
+        <DTS:Variable
+          DTS:CreationName=""
+          DTS:DTSID="{8EB1095D-67B2-43F9-A17D-F07742C1901E}"
+          DTS:IncludeInDebugDump="6789"
+          DTS:Namespace="User"
+          DTS:ObjectName="LSETResult">
+          <DTS:VariableValue
+            DTS:DataType="7">12/10/2023 9:44:48 PM</DTS:VariableValue>
+        </DTS:Variable>
+      </DTS:Variables>
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{20DE119E-3554-4E2B-B3C8-C82257E12E31}"
+          SQLTask:SqlStatementSource="select LSET from DataFlow where name = 'nds_productLine'"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="LSET"
+            SQLTask:DtsVariableName="User::LSETResult" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\productLine stage to nds"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{C6D7FFA4-0533-4C24-BADD-5B73F82296C1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task"
+      DTS:ObjectName="productLine stage to nds"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables>
         <DTS:Variable
@@ -95,7 +127,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task\Add col sourceID"
+              refId="Package\productLine stage to nds\Add col sourceID"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -103,7 +135,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Add col sourceID.Inputs[Derived Column Input]"
+                  refId="Package\productLine stage to nds\Add col sourceID.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <externalMetadataColumns />
@@ -111,18 +143,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output]"
+                  refId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task\Add col sourceID.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\Add col sourceID.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
+                      refId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
                       dataType="i8"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]"
                       name="sourceID"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -143,23 +175,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output]"
+                  refId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task\Add col sourceID.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\Add col sourceID.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -168,7 +200,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt"
+              refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -176,7 +208,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]"
+                  refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <externalMetadataColumns />
@@ -184,18 +216,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output]"
+                  refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]"
+                      refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]"
                       name="createdAt"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -213,11 +245,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
+                      refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
                       name="updatedAt"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -238,23 +270,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output]"
+                  refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -263,7 +295,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\derrived UpdatedAt"
+              refId="Package\productLine stage to nds\derrived UpdatedAt"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -271,7 +303,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]"
+                  refId="Package\productLine stage to nds\derrived UpdatedAt.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <externalMetadataColumns />
@@ -279,18 +311,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output]"
+                  refId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\derrived UpdatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
+                      refId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
+                      lineageId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]"
                       name="updatedAt"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -311,23 +343,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Error Output]"
+                  refId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\productLine stage to nds\derrived UpdatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -336,7 +368,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\get productLine from stage"
+              refId="Package\productLine stage to nds\get productLine from stage"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -387,7 +419,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\get productLine from stage.Connections[OleDbConnection]"
+                  refId="Package\productLine stage to nds\get productLine from stage.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.stage.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.stage.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -395,79 +427,79 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output]"
+                  refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[Product line]"
+                      externalMetadataColumnId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[Product line]"
                       length="255"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]"
                       name="Product line"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[ProductLineID]"
+                      externalMetadataColumnId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[ProductLineID]"
                       length="255"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]"
                       name="ProductLineID"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[CreatedAt]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[CreatedAt]"
                       dataType="dbTimeStamp"
                       name="CreatedAt" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[UpdatedAt]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[UpdatedAt]"
                       dataType="dbTimeStamp"
                       name="UpdatedAt" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[Product line]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[Product line]"
                       dataType="wstr"
                       length="255"
                       name="Product line" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[ProductLineID]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].ExternalColumns[ProductLineID]"
                       dataType="wstr"
                       length="255"
                       name="ProductLineID" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output]"
+                  refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[Product line]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[Product line]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[Product line]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[Product line]"
                       name="Product line" />
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ProductLineID]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ProductLineID]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ProductLineID]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ProductLineID]"
                       name="ProductLineID" />
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -476,7 +508,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\insert productLine to NDS"
+              refId="Package\productLine stage to nds\insert productLine to NDS"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -533,7 +565,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\insert productLine to NDS.Connections[OleDbConnection]"
+                  refId="Package\productLine stage to nds\insert productLine to NDS.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.nds.sa1]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.nds.sa1]"
                   description="The OLE DB runtime connection used to access the database."
@@ -541,71 +573,71 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input]"
+                  refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[createdAt]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[createdAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="createdAt"
-                      externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[createdAt]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[updatedAt]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[updatedAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="updatedAt"
-                      externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
-                      lineageId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
+                      lineageId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[sourceID]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[ProductLineID]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[ProductLineID]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="ProductLineID"
-                      externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineNK]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineNK]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[Product line]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].Columns[Product line]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Product line"
-                      externalMetadataColumnId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLine]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLine]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineID]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineID]"
                       dataType="i8"
                       name="ProductLineID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineNK]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLineNK]"
                       dataType="wstr"
                       length="255"
                       name="ProductLineNK" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLine]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[ProductLine]"
                       dataType="wstr"
                       length="255"
                       name="ProductLine" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
                       dataType="dbTimeStamp"
                       name="CreatedAt" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
                       dataType="dbTimeStamp"
                       name="UpdatedAt" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
                       dataType="i8"
                       name="sourceID" />
                   </externalMetadataColumns>
@@ -613,22 +645,22 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\insert productLine to NDS.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\productLine stage to nds\insert productLine to NDS.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\insert productLine to NDS.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -637,7 +669,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Slowly Changing Dimension"
+              refId="Package\productLine stage to nds\Slowly Changing Dimension"
               componentClassID="Microsoft.SCD"
               contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
               description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
@@ -685,7 +717,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Connections[LookupConnection]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Connections[LookupConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.nds.sa1]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.nds.sa1]"
                   description="Defines the connection to use for lookups in the dimension table"
@@ -693,16 +725,16 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Product line]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Product line]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Product line"
-                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]">
+                      externalMetadataColumnId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -711,12 +743,12 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[ProductLineID]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[ProductLineID]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="ProductLineID"
-                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]">
+                      externalMetadataColumnId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -725,11 +757,11 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]">
+                      externalMetadataColumnId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -741,17 +773,17 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLine]"
                       dataType="wstr"
                       length="255"
                       name="ProductLine" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[ProductLineNK]"
                       dataType="wstr"
                       length="255"
                       name="ProductLineNK" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
                       dataType="i8"
                       name="sourceID" />
                   </externalMetadataColumns>
@@ -759,57 +791,57 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Unchanged Output]"
                   description="Unchanged rows"
                   exclusionGroup="1"
                   name="Unchanged Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[New Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[New Output]"
                   description="New rows"
                   exclusionGroup="1"
                   name="New Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
                   description="Rows with changes in columns tagged FixedAttribute"
                   exclusionGroup="1"
                   name="Fixed Attribute Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
                   description="These rows contain new information for ChangingAttribute (Type 1) column changes"
                   exclusionGroup="1"
                   name="Changing Attribute Updates Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
                   description="HistoricalAttribute (Type 2) changes result in these new rows"
                   exclusionGroup="2"
                   name="Historical Attribute Inserts Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  refId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
                   description="Information to update unpopulated initial dimension row"
                   exclusionGroup="1"
                   name="Inferred Member Updates Output"
-                  synchronousInputId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\update productLine"
+              refId="Package\productLine stage to nds\update productLine"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
               description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
@@ -834,7 +866,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\update productLine.Connections[OleDbConnection]"
+                  refId="Package\productLine stage to nds\update productLine.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.nds.sa1]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.nds.sa1]"
                   description="The OLE DB runtime connection used to access the database."
@@ -842,43 +874,43 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input]"
+                  refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input]"
                   errorOrTruncationOperation="Command Execution"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[Product line]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].Columns[Product line]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Product line"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[Product line]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[updatedAt]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].Columns[updatedAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="updatedAt"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Output].Columns[updatedAt]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[ProductLineID]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].Columns[ProductLineID]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="ProductLineID"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      lineageId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output].Columns[ProductLineID]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].Columns[sourceID]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
+                      externalMetadataColumnId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
                       dataType="wstr"
                       length="255"
                       name="Param_0">
@@ -890,7 +922,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       dataType="dbTimeStamp"
                       name="Param_1">
                       <properties>
@@ -901,7 +933,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
                       dataType="i8"
                       name="Param_2">
                       <properties>
@@ -912,7 +944,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
                       dataType="wstr"
                       length="255"
                       name="Param_3">
@@ -928,29 +960,29 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Output]"
+                  refId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Output]"
                   exclusionGroup="1"
                   name="OLE DB Command Output"
-                  synchronousInputId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Error Output]"
+                  refId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Command Error Output"
-                  synchronousInputId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      refId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      lineageId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      refId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\productLine stage to nds\update productLine.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -961,69 +993,37 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Task.Paths[Changing Attribute Updates Output]"
-              endId="Package\Data Flow Task\derrived UpdatedAt.Inputs[Derived Column Input]"
+              refId="Package\productLine stage to nds.Paths[Changing Attribute Updates Output]"
+              endId="Package\productLine stage to nds\derrived UpdatedAt.Inputs[Derived Column Input]"
               name="Changing Attribute Updates Output"
-              startId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
+              startId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task\update productLine.Inputs[OLE DB Command Input]"
+              refId="Package\productLine stage to nds.Paths[Derived Column Output]"
+              endId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task\derrived UpdatedAt.Outputs[Derived Column Output]" />
+              startId="Package\productLine stage to nds\derrived UpdatedAt.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output1]"
-              endId="Package\Data Flow Task\insert productLine to NDS.Inputs[OLE DB Destination Input]"
+              refId="Package\productLine stage to nds.Paths[Derived Column Output1]"
+              endId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output]" />
+              startId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output2]"
-              endId="Package\Data Flow Task\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              refId="Package\productLine stage to nds.Paths[Derived Column Output2]"
+              endId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task\Add col sourceID.Outputs[Derived Column Output]" />
+              startId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[New Output]"
-              endId="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]"
+              refId="Package\productLine stage to nds.Paths[New Output]"
+              endId="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt.Inputs[Derived Column Input]"
               name="New Output"
-              startId="Package\Data Flow Task\Slowly Changing Dimension.Outputs[New Output]" />
+              startId="Package\productLine stage to nds\Slowly Changing Dimension.Outputs[New Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[OLE DB Source Output]"
-              endId="Package\Data Flow Task\Add col sourceID.Inputs[Derived Column Input]"
+              refId="Package\productLine stage to nds.Paths[OLE DB Source Output]"
+              endId="Package\productLine stage to nds\Add col sourceID.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
-              startId="Package\Data Flow Task\get productLine from stage.Outputs[OLE DB Source Output]" />
+              startId="Package\productLine stage to nds\get productLine from stage.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\get LSET from metadata"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{4F0309BA-B4F3-426B-84C0-78EE9D6E9CC2}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="get LSET from metadata"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables>
-        <DTS:Variable
-          DTS:CreationName=""
-          DTS:DTSID="{8EB1095D-67B2-43F9-A17D-F07742C1901E}"
-          DTS:IncludeInDebugDump="6789"
-          DTS:Namespace="User"
-          DTS:ObjectName="LSETResult">
-          <DTS:VariableValue
-            DTS:DataType="7">12/10/2023 9:44:48 PM</DTS:VariableValue>
-        </DTS:Variable>
-      </DTS:Variables>
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{20DE119E-3554-4E2B-B3C8-C82257E12E31}"
-          SQLTask:SqlStatementSource="select LSET from DataFlow where name = 'nds_productLine'"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="LSET"
-            SQLTask:DtsVariableName="User::LSETResult" />
-        </SQLTask:SqlTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -1087,12 +1087,12 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       DTS:From="Package\get LSET from metadata"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\Data Flow Task" />
+      DTS:To="Package\productLine stage to nds" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
       DTS:DTSID="{DD9D5EE3-D109-436D-AFDC-C4111AC5C63C}"
-      DTS:From="Package\Data Flow Task"
+      DTS:From="Package\productLine stage to nds"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\set LSET to metadata" />
@@ -1111,7 +1111,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="155,42"
-          Id="Package\Data Flow Task"
+          Id="Package\productLine stage to nds"
           TopLeft="85,257" />
         <NodeLayout
           Size="170,42"
@@ -1195,106 +1195,40 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task">
+    design-time-name="Package\productLine stage to nds">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="174,42"
-          Id="Package\Data Flow Task\derrived UpdatedAt"
-          TopLeft="5.49999999999989,213.5" />
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Data Flow Task\insert productLine to NDS"
-          TopLeft="942.5,315.5" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Data Flow Task\update productLine"
-          TopLeft="5.99999999999989,315.5" />
-        <NodeLayout
           Size="216,46"
-          Id="Package\Data Flow Task\get productLine from stage"
+          Id="Package\productLine stage to nds\get productLine from stage"
           TopLeft="444.5,5.5" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\Data Flow Task\Add col sourceID"
-          TopLeft="473.5,111.5" />
+          Size="216,42"
+          Id="Package\productLine stage to nds\Slowly Changing Dimension"
+          TopLeft="444.5,218.5" />
         <NodeLayout
           Size="208,42"
-          Id="Package\Data Flow Task\Derived CreatedAt &amp; UpdatedAt"
-          TopLeft="931.5,213.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
-          TopLeft="552.5,51.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="1035.5,255.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="92.4999999999999,255.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Id="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt"
+          TopLeft="681.5,294.5" />
         <NodeLayout
-          Size="216,42"
-          Id="Package\Data Flow Task\Slowly Changing Dimension"
-          TopLeft="444.5,218.5" />
+          Size="173,42"
+          Id="Package\productLine stage to nds\update productLine"
+          TopLeft="256,381.5" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\productLine stage to nds\derrived UpdatedAt"
+          TopLeft="255.5,279.5" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\productLine stage to nds\insert productLine to NDS"
+          TopLeft="692.5,396.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\productLine stage to nds\Add col sourceID"
+          TopLeft="473.5,111.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output2]"
+          Id="Package\productLine stage to nds.Paths[Derived Column Output2]"
           TopLeft="552.5,153.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1316,65 +1250,149 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[New Output]"
-          TopLeft="660.5,237">
+          Id="Package\productLine stage to nds.Paths[Derived Column Output1]"
+          TopLeft="785.5,336.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="271,0"
+              EndConnector="0,60"
               Start="0,0"
-              End="263.5,0">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="263.5,0" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\productLine stage to nds.Paths[Derived Column Output]"
+          TopLeft="342.5,321.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\productLine stage to nds.Paths[Changing Attribute Updates Output]"
+          TopLeft="444.5,239.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-102,40"
+              Start="0,0"
+              End="-102,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-98.0000000000001,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-98.0000000000001,0"
+                    Point2="-102,0"
+                    Point3="-102,4" />
+                  <mssgle:LineSegment
+                    End="-102,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="104.65861328125,5,54.1827734375,11.43359375"
+              BoundingBox="-180.53390625,-17.6630859375,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Changing Attribute Updates Output]"
-          TopLeft="444.5,237">
+          Id="Package\productLine stage to nds.Paths[OLE DB Source Output]"
+          TopLeft="552.5,51.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-265,0"
+              EndConnector="0,60"
               Start="0,0"
-              End="-257.5,0">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-257.5,0" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\productLine stage to nds.Paths[New Output]"
+          TopLeft="552.5,260.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="233,34"
+              Start="0,0"
+              End="233,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="4,17" />
+                  <mssgle:LineSegment
+                    End="229,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="229,17"
+                    Point2="233,17"
+                    Point3="233,21" />
+                  <mssgle:LineSegment
+                    End="233,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-207.28390625,5,157.0678125,11.6630859375"
+              BoundingBox="89.40861328125,22,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
           Text="S"
-          ParentId="Package\Data Flow Task"
+          ParentId="Package\productLine stage to nds"
           FontInfo="{assembly:Null}"
-          Size="35,60"
+          Size="35,40"
           Id="d0082346-c6c7-4f63-9181-10cfe4084550"
           TopLeft="860,83" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\insert productLine to NDS">
+    design-time-name="Package\productLine stage to nds\get productLine from stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1387,20 +1405,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\get productLine from stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Slowly Changing Dimension">
+    design-time-name="Package\productLine stage to nds\Slowly Changing Dimension">
     <Properties>
       <Property>
         <Name>SCDMetadata</Name>
@@ -1446,6 +1451,19 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\productLine stage to nds\insert productLine to NDS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

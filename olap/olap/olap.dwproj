@@ -56,14 +56,14 @@
           <ConfigurationSetting>
             <Id>Dds olap</Id>
             <Name>Dds olap</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=MSI;Integrated Security=SSPI;Initial Catalog=DDS</Value>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=dds</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>Dds olap</Id>
             <Name>Dds olap</Name>
-            <Value xsi:type="xsd:int">0</Value>
+            <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>

@@ -11,20 +11,20 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="customer_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{E42ED7F5-932C-46C6-9E17-1A7115244622}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{8D782095-CDBF-46E1-8574-B884050CF9E8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Data Flow Task customer"
+      DTS:refId="Package\customer stage to nds"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task invoice"
       DTS:DTSID="{4295125d-4d6a-40c9-abf7-2666258d58c8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Data Flow Task customer"
+      DTS:ObjectName="customer stage to nds"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables>
         <DTS:Variable
@@ -60,7 +60,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task customer\add createdAt and updatedAt"
+              refId="Package\customer stage to nds\add createdAt and updatedAt"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -68,7 +68,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task customer\add createdAt and updatedAt.Inputs[Derived Column Input]"
+                  refId="Package\customer stage to nds\add createdAt and updatedAt.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <externalMetadataColumns />
@@ -76,18 +76,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output]"
+                  refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task customer\add createdAt and updatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\customer stage to nds\add createdAt and updatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]"
+                      refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]"
                       name="CreatedAt"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -105,11 +105,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]"
+                      refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]"
                       name="UpdatedAt"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -130,23 +130,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Error Output]"
+                  refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task customer\add createdAt and updatedAt.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\customer stage to nds\add createdAt and updatedAt.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -155,7 +155,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task customer\add sourceID"
+              refId="Package\customer stage to nds\add sourceID"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -163,18 +163,18 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task customer\add sourceID.Inputs[Derived Column Input]"
+                  refId="Package\customer stage to nds\add sourceID.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\add sourceID.Inputs[Derived Column Input].Columns[Gender]"
+                      refId="Package\customer stage to nds\add sourceID.Inputs[Derived Column Input].Columns[Gender]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Gender"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
                       truncationRowDisposition="FailComponent"
                       usageType="readWrite">
                       <properties>
@@ -182,7 +182,7 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(#{Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]} == "M" ? "Male" : (#{Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]} == "F" ? "Female" : #{Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]}))</property>
+                          name="Expression">(#{Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]} == "M" ? "Male" : (#{Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]} == "F" ? "Female" : #{Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]}))</property>
                         <property
                           containsID="true"
                           dataType="System.String"
@@ -197,18 +197,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output]"
+                  refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task customer\add sourceID.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\customer stage to nds\add sourceID.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
+                      refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
                       dataType="i8"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
+                      lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
                       name="sourceID"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -229,23 +229,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Error Output]"
+                  refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task customer\add sourceID.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\customer stage to nds\add sourceID.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -254,7 +254,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task customer\get customer from stage"
+              refId="Package\customer stage to nds\get customer from stage"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -303,7 +303,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task customer\get customer from stage.Connections[OleDbConnection]"
+                  refId="Package\customer stage to nds\get customer from stage.Connections[OleDbConnection]"
                   connectionManagerID="{0DBB2425-65CF-42D7-B5E8-F8465956D0C7}:external"
                   connectionManagerRefId="Project.ConnectionManagers[localhost.stage.sa]"
                   description="The OLE DB runtime connection used to access the database."
@@ -311,71 +311,71 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output]"
+                  refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
+                      externalMetadataColumnId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]"
                       name="Customer type"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
+                      externalMetadataColumnId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]"
                       name="Gender"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
                       dataType="wstr"
                       length="255"
                       name="Customer type" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
                       dataType="wstr"
                       length="255"
                       name="Gender" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output]"
+                  refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Customer type]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Customer type]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Customer type]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Customer type]"
                       name="Customer type" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Gender]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Gender]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Gender]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[Gender]"
                       name="Gender" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -384,7 +384,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task customer\insert new customer"
+              refId="Package\customer stage to nds\insert new customer"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -441,7 +441,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task customer\insert new customer.Connections[OleDbConnection]"
+                  refId="Package\customer stage to nds\insert new customer.Connections[OleDbConnection]"
                   connectionManagerID="{57381031-972B-4597-8349-A77DFA567CBE}:external"
                   connectionManagerRefId="Project.ConnectionManagers[localhost.nds.sa1]"
                   description="The OLE DB runtime connection used to access the database."
@@ -449,73 +449,73 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input]"
+                  refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].Columns[Gender]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[Gender]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Gender"
                       cachedSortKeyPosition="2"
-                      externalMetadataColumnId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[Gender]"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Gender]" />
+                      externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[Gender]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Gender]" />
                     <inputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].Columns[sourceID]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[sourceID]" />
+                      externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]" />
                     <inputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].Columns[CreatedAt]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[CreatedAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="CreatedAt"
-                      externalMetadataColumnId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]" />
+                      externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[CreatedAt]" />
                     <inputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].Columns[UpdatedAt]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[UpdatedAt]"
                       cachedDataType="dbTimeStamp"
                       cachedName="UpdatedAt"
-                      externalMetadataColumnId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
-                      lineageId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]" />
+                      externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
+                      lineageId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output].Columns[UpdatedAt]" />
                     <inputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].Columns[Customer type]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[Customer type]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Customer type"
                       cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerType]"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Customer type]" />
+                      externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerType]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Customer type]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
                       dataType="i8"
                       name="CustomerID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerType]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CustomerType]"
                       dataType="wstr"
                       length="255"
                       name="CustomerType" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[Gender]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[Gender]"
                       dataType="wstr"
                       length="255"
                       name="Gender" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
                       dataType="i8"
                       name="sourceID" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
                       dataType="dbTimeStamp"
                       name="CreatedAt" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
+                      refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
                       dataType="dbTimeStamp"
                       name="UpdatedAt" />
                   </externalMetadataColumns>
@@ -523,22 +523,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\insert new customer.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\customer stage to nds\insert new customer.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\customer stage to nds\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\customer stage to nds\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task customer\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\customer stage to nds\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task customer\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\customer stage to nds\insert new customer.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -547,7 +547,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task customer\Slowly Changing Dimension"
+              refId="Package\customer stage to nds\Slowly Changing Dimension"
               componentClassID="Microsoft.SCD"
               contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
               description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
@@ -595,7 +595,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Connections[LookupConnection]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Connections[LookupConnection]"
                   connectionManagerID="{57381031-972B-4597-8349-A77DFA567CBE}:external"
                   connectionManagerRefId="Project.ConnectionManagers[localhost.nds.sa1]"
                   description="Defines the connection to use for lookups in the dimension table"
@@ -603,16 +603,16 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Customer type]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Customer type]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Customer type"
-                      externalMetadataColumnId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[CustomerType]"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]">
+                      externalMetadataColumnId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[CustomerType]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -621,12 +621,12 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Gender]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Gender]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Gender"
-                      externalMetadataColumnId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Gender]"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]">
+                      externalMetadataColumnId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Gender]"
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -635,11 +635,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      externalMetadataColumnId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
-                      lineageId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
+                      externalMetadataColumnId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -651,17 +651,17 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[CustomerType]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[CustomerType]"
                       dataType="wstr"
                       length="255"
                       name="CustomerType" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Gender]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Gender]"
                       dataType="wstr"
                       length="255"
                       name="Gender" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
+                      refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
                       dataType="i8"
                       name="sourceID" />
                   </externalMetadataColumns>
@@ -669,57 +669,57 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[Unchanged Output]"
                   description="Unchanged rows"
                   exclusionGroup="1"
                   name="Unchanged Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[New Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[New Output]"
                   description="New rows"
                   exclusionGroup="1"
                   name="New Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
                   description="Rows with changes in columns tagged FixedAttribute"
                   exclusionGroup="1"
                   name="Fixed Attribute Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
                   description="These rows contain new information for ChangingAttribute (Type 1) column changes"
                   exclusionGroup="1"
                   name="Changing Attribute Updates Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
                   description="HistoricalAttribute (Type 2) changes result in these new rows"
                   exclusionGroup="2"
                   name="Historical Attribute Inserts Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  refId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
                   description="Information to update unpopulated initial dimension row"
                   exclusionGroup="1"
                   name="Inferred Member Updates Output"
-                  synchronousInputId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task customer\Sort"
+              refId="Package\customer stage to nds\Sort"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
@@ -738,15 +738,15 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task customer\Sort.Inputs[Sort Input]"
+                  refId="Package\customer stage to nds\Sort.Inputs[Sort Input]"
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Sort.Inputs[Sort Input].Columns[Customer type]"
+                      refId="Package\customer stage to nds\Sort.Inputs[Sort Input].Columns[Customer type]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Customer type"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]">
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -759,11 +759,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Sort.Inputs[Sort Input].Columns[Gender]"
+                      refId="Package\customer stage to nds\Sort.Inputs[Sort Input].Columns[Gender]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Gender"
-                      lineageId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]">
+                      lineageId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -776,10 +776,10 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Data Flow Task customer\Sort.Inputs[Sort Input].Columns[sourceID]"
+                      refId="Package\customer stage to nds\Sort.Inputs[Sort Input].Columns[sourceID]"
                       cachedDataType="i8"
                       cachedName="sourceID"
-                      lineageId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
+                      lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -797,15 +797,15 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task customer\Sort.Outputs[Sort Output]"
+                  refId="Package\customer stage to nds\Sort.Outputs[Sort Output]"
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Customer type]"
+                      refId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Customer type]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Customer type]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Customer type]"
                       name="Customer type"
                       sortKeyPosition="1">
                       <properties>
@@ -813,14 +813,14 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]}</property>
+                          name="SortColumnId">#{Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Customer type]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Gender]"
+                      refId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Gender]"
                       dataType="wstr"
                       length="255"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[Gender]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Gender]"
                       name="Gender"
                       sortKeyPosition="2">
                       <properties>
@@ -828,20 +828,20 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]}</property>
+                          name="SortColumnId">#{Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output].Columns[Gender]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[sourceID]"
+                      refId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]"
                       dataType="i8"
-                      lineageId="Package\Data Flow Task customer\Sort.Outputs[Sort Output].Columns[sourceID]"
+                      lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]"
                       name="sourceID">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output].Columns[sourceID]}</property>
+                          name="SortColumnId">#{Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -852,30 +852,30 @@
           </components>
           <paths>
             <path
-              refId="Package\Data Flow Task customer.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task customer\insert new customer.Inputs[OLE DB Destination Input]"
+              refId="Package\customer stage to nds.Paths[Derived Column Output]"
+              endId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task customer\add createdAt and updatedAt.Outputs[Derived Column Output]" />
+              startId="Package\customer stage to nds\add createdAt and updatedAt.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task customer.Paths[Derived Column Output1]"
-              endId="Package\Data Flow Task customer\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              refId="Package\customer stage to nds.Paths[Derived Column Output1]"
+              endId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task customer\add sourceID.Outputs[Derived Column Output]" />
+              startId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Data Flow Task customer.Paths[New Output]"
-              endId="Package\Data Flow Task customer\Sort.Inputs[Sort Input]"
+              refId="Package\customer stage to nds.Paths[New Output]"
+              endId="Package\customer stage to nds\Sort.Inputs[Sort Input]"
               name="New Output"
-              startId="Package\Data Flow Task customer\Slowly Changing Dimension.Outputs[New Output]" />
+              startId="Package\customer stage to nds\Slowly Changing Dimension.Outputs[New Output]" />
             <path
-              refId="Package\Data Flow Task customer.Paths[OLE DB Source Output]"
-              endId="Package\Data Flow Task customer\add sourceID.Inputs[Derived Column Input]"
+              refId="Package\customer stage to nds.Paths[OLE DB Source Output]"
+              endId="Package\customer stage to nds\add sourceID.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
-              startId="Package\Data Flow Task customer\get customer from stage.Outputs[OLE DB Source Output]" />
+              startId="Package\customer stage to nds\get customer from stage.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Data Flow Task customer.Paths[Sort Output]"
-              endId="Package\Data Flow Task customer\add createdAt and updatedAt.Inputs[Derived Column Input]"
+              refId="Package\customer stage to nds.Paths[Sort Output]"
+              endId="Package\customer stage to nds\add createdAt and updatedAt.Inputs[Derived Column Input]"
               name="Sort Output"
-              startId="Package\Data Flow Task customer\Sort.Outputs[Sort Output]" />
+              startId="Package\customer stage to nds\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -963,12 +963,12 @@
       DTS:From="Package\get LSET from metadata 2"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1 2"
-      DTS:To="Package\Data Flow Task customer" />
+      DTS:To="Package\customer stage to nds" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2 2]"
       DTS:CreationName=""
       DTS:DTSID="{9c7aa000-6508-4e77-b43d-78ce15c2efee}"
-      DTS:From="Package\Data Flow Task customer"
+      DTS:From="Package\customer stage to nds"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2 2"
       DTS:To="Package\set LSET to metadata 2" />
@@ -995,7 +995,7 @@
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="155,42"
-          Id="Package\Data Flow Task customer"
+          Id="Package\customer stage to nds"
           TopLeft="73,223" />
         <NodeLayout
           Size="179,42"
@@ -1008,7 +1008,7 @@
         <NodeLayout
           Size="185,42"
           Id="Package\set LSET to metadata 2"
-          TopLeft="84,303" />
+          TopLeft="60,305" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1 2]"
           TopLeft="150,178">
@@ -1033,30 +1033,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2 2]"
-          TopLeft="150.5,265">
+          TopLeft="151.5,265">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="26,38"
+              EndConnector="0,40"
               Start="0,0"
-              End="26,30.5">
+              End="0,32.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15"
-                    Point2="0,19"
-                    Point3="4,19" />
-                  <mssgle:LineSegment
-                    End="22,19" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22,19"
-                    Point2="26,19"
-                    Point3="26,23" />
-                  <mssgle:LineSegment
-                    End="26,30.5" />
+                    End="0,32.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1091,114 +1079,48 @@
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Data Flow Task customer">
+    design-time-name="Package\customer stage to nds">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="99,42"
-          Id="Package\Data Flow Task customer\Sort"
-          TopLeft="285.5,331.5" />
-        <NodeLayout
           Size="144,42"
-          Id="Package\Data Flow Task customer\add sourceID"
-          TopLeft="270,107.5" />
+          Id="Package\customer stage to nds\add sourceID"
+          TopLeft="271,64.5" />
         <NodeLayout
           Size="177,42"
-          Id="Package\Data Flow Task customer\insert new customer"
-          TopLeft="246.5,535.5" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Data Flow Task customer\add createdAt and updatedAt"
-          TopLeft="256,433.5" />
+          Id="Package\customer stage to nds\insert new customer"
+          TopLeft="270.5,356.5" />
         <NodeLayout
           Size="157,42"
-          Id="Package\Data Flow Task customer\get customer from stage"
+          Id="Package\customer stage to nds\get customer from stage"
           TopLeft="263.5,5.49999999999989" />
-        <EdgeLayout
-          Id="Package\Data Flow Task customer.Paths[Sort Output]"
-          TopLeft="335,373.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task customer.Paths[OLE DB Source Output]"
-          TopLeft="342,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task customer.Paths[Derived Column Output]"
-          TopLeft="335,475.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="216,42"
-          Id="Package\Data Flow Task customer\Slowly Changing Dimension"
-          TopLeft="232,209.5" />
+          Id="Package\customer stage to nds\Slowly Changing Dimension"
+          TopLeft="237,137.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\customer stage to nds\add createdAt and updatedAt"
+          TopLeft="273,290.5" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\customer stage to nds\Sort"
+          TopLeft="300.5,212.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task customer.Paths[Derived Column Output1]"
-          TopLeft="341,149.5">
+          Id="Package\customer stage to nds.Paths[Sort Output]"
+          TopLeft="351,254.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="0,36"
               Start="0,0"
-              End="0,52.5">
+              End="0,28.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,28.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1208,34 +1130,112 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task customer.Paths[New Output]"
-          TopLeft="337.5,251.5">
+          Id="Package\customer stage to nds.Paths[OLE DB Source Output]"
+          TopLeft="263.5,26.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,80"
+              EndConnector="7.5,59.0000000000001"
               Start="0,0"
-              End="0,72.5">
+              End="0,59.0000000000001">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,72.5" />
+                    End="-18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-18.5,0"
+                    Point2="-22.5,0"
+                    Point3="-22.5,4" />
+                  <mssgle:LineSegment
+                    End="-22.5,55.0000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.5,55.0000000000001"
+                    Point2="-22.5,59.0000000000001"
+                    Point3="-18.5,59.0000000000001" />
+                  <mssgle:LineSegment
+                    End="0,59.0000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\customer stage to nds.Paths[New Output]"
+          TopLeft="347.5,179.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33"
+              Start="0,0"
+              End="0,25.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,30.533203125,54.1827734375,11.43359375"
+              BoundingBox="-27.09138671875,7.033203125,54.1827734375,11.43359375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\customer stage to nds.Paths[Derived Column Output1]"
+          TopLeft="344,106.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\customer stage to nds.Paths[Derived Column Output]"
+          TopLeft="355.5,332.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,24"
+              Start="0,0"
+              End="0,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task customer\get customer from stage">
+    design-time-name="Package\customer stage to nds\get customer from stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1243,7 +1243,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task customer\Slowly Changing Dimension">
+    design-time-name="Package\customer stage to nds\Slowly Changing Dimension">
     <Properties>
       <Property>
         <Name>SCDMetadata</Name>
