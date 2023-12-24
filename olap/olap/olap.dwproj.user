@@ -3,21 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <UserIDs>
-          <ConfigurationSetting>
-            <Id>Dds olap</Id>
-            <Name>Dds olap</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAASAAAARABkAHMAIABvAGwAYQBwAAAAEGYAAAABAAAgAAAAneJom5N+lWujCGmR40zAUtz4evOB8oAMpdWn+WX9bsIAAAAADoAAAAACAAAgAAAA0xe+K9PHa/Q3oUymJcnKWzOhI1MzaUs0b/ss0/OQjIsQAAAA9vfzagdngMutkPMTHhwrt0AAAAAbhH0fz6HPKWW6rxYCdtWHEz4BRzQnaoZJcMnyToZFz2I4zTmhdh9oxi6B456UWaIEEFMFsnggjLRXxDOLuWBA</Value>
-          </ConfigurationSetting>
-        </UserIDs>
-        <UserPasswords>
-          <ConfigurationSetting>
-            <Id>Dds olap</Id>
-            <Name>Dds olap</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAASAAAARABkAHMAIABvAGwAYQBwAAAAEGYAAAABAAAgAAAAYlWTY4yBM5bNbhdqCPE40NHtxHgVzSfpYLdOGoKo6eAAAAAADoAAAAACAAAgAAAAOdgogmCvP9peKwwr++0FyGi3J9p/H0oO+488q5z14CkgAAAA0cucKTCyqMkqWaGC3/ZMjlbcLIRYdAcf0Ydd5KkEQhJAAAAA3sDsIH8I3Rgi2iOCuZLHf30V/kkmlCfruAp4hRr5dj3q9X7jpkt7SkJyP+Oukjk8Ux36Z5td8WEvsut5cAYkQw==</Value>
-          </ConfigurationSetting>
-        </UserPasswords>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>MSI</TargetServer>
         <TargetDatabase>olap</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

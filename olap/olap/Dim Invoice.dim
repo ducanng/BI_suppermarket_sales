@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ea745b6b-32b3-46fb-9593-99aff2b5b221" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f379a188-9954-485d-bd5f-cbe34f580e93" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Invoice</ID>
   <Name>Dim Invoice</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1676" scrolltop="-4379" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6392" y="9567" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1676" scrolltop="-4379" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6392" y="13166" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dimInvoice" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dimInvoice" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
             </control>
@@ -104,47 +104,47 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="856bc1af-15cd-4c28-92e5-ee4911947ede">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="32b19cff-e704-4b24-a32b-6d16c2880f3d">
     <DataSourceViewID>DDS</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="20dc49db-25d3-4d9a-8ecc-672ae3be6178">
+  <ErrorConfiguration dwd:design-time-name="c45193a2-6b62-4a07-9f3e-f300006f30bc">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1717acfa-48d5-43ea-b548-27370aa40f5c">
+    <Attribute dwd:design-time-name="735c5c08-faee-410b-bfd6-004a6a14c3d6">
       <ID>Invoice ID</ID>
       <Name>Invoice ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0b3cd8fa-5518-4a43-95c2-180d73f126f0">
+        <KeyColumn dwd:design-time-name="fb85beda-087f-48a0-88ad-23f70a15707b">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4d52e224-bf79-44dc-8aa2-5ef086616101">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12afc556-2f7d-4d8f-b949-0f4b4b2b1fac">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>invoiceID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a3f74983-c320-4a91-9a45-e90196874403">
+        <AttributeRelationship dwd:design-time-name="7a32935f-3cbe-4861-8469-7bb8901cc2f0">
           <AttributeID>Invoice NK</AttributeID>
           <Name>Invoice NK</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="33096bba-ca8f-4cfe-8049-0463a5ad757d">
+        <AttributeRelationship dwd:design-time-name="c76ec668-59fe-4377-a0bf-4ecbe603d43e">
           <AttributeID>Customer Type</AttributeID>
           <Name>Customer Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="095bb9b0-9a91-4709-b43d-d68a2340575a">
+        <AttributeRelationship dwd:design-time-name="2d6fa2f6-5f66-41e0-8e23-127377437f84">
           <AttributeID>Gender</AttributeID>
           <Name>Gender</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8da9aa8a-1690-4448-a52b-7b9bd07cbe87">
+        <AttributeRelationship dwd:design-time-name="ef45e0e9-6d3d-4dfb-b9dc-cee8c0d8b3bd">
           <AttributeID>Time</AttributeID>
           <Name>Time</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9913cde5-1511-4a6c-9616-7b9bf50bc118">
+        <AttributeRelationship dwd:design-time-name="a31ab9af-ff1d-441d-9871-ff6326134ca1">
           <AttributeID>Payment</AttributeID>
           <Name>Payment</Name>
         </AttributeRelationship>
@@ -153,14 +153,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="299ba26f-fcd4-44af-a352-70f775dcb484">
+    <Attribute dwd:design-time-name="13c988d1-4224-4bda-a300-153629a76ff0">
       <ID>Invoice NK</ID>
       <Name>Invoice NK</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="19b36fbc-f9d5-4e86-8759-3ac2c4fe37ab">
+        <KeyColumn dwd:design-time-name="b22da206-60d6-457d-8c6b-e82dff81d093">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f57cfd85-e9f2-4218-8f2d-9e7a4ba651ea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c8fbf14-a10f-4f9f-a5cb-dc2eafda312d">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>invoiceNK</ColumnID>
           </Source>
@@ -170,14 +170,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8bc476e5-8f49-456d-8858-e3d663b80416">
+    <Attribute dwd:design-time-name="153d6602-551e-4ec2-9984-86e1a648566f">
       <ID>Customer Type</ID>
       <Name>Customer Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a229deeb-da04-4247-9f24-5b8619454d3e">
+        <KeyColumn dwd:design-time-name="eb256bcb-3e63-4541-94e0-cbc8c9166747">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="290b232e-973b-4950-86e6-2ce3274a26ab">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea0b4d1e-39d8-461e-9f90-963a255ffda6">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>customerType</ColumnID>
           </Source>
@@ -187,14 +187,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="da040be1-6a37-4b6a-855e-1592ed185019">
+    <Attribute dwd:design-time-name="e0699861-40eb-4524-b67e-6af20d9653b9">
       <ID>Gender</ID>
       <Name>Gender</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6b61fbc8-122e-4dcf-becb-1ca5dfd4e148">
+        <KeyColumn dwd:design-time-name="cf7b51cf-7518-4157-9539-8d370ee35607">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="873d6fe8-85ed-4df3-a48f-78c2730162b8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd2e9b77-d173-4027-8f1f-341b620d6437">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>gender</ColumnID>
           </Source>
@@ -204,21 +204,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="eae73071-82ce-4fbe-880f-c40dac91cedd">
+    <Attribute dwd:design-time-name="461d561c-f855-4b3b-9cd7-7d418f8a0b8a">
       <ID>Time</ID>
       <Name>Time</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="828dc1b7-f000-48ce-93cf-65eb33c890c7">
+        <KeyColumn dwd:design-time-name="c4b2075f-acbe-41f3-8f74-6a4b913d6bd1">
           <DataType>WChar</DataType>
           <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1186e17e-2633-4923-9c0b-56387d3784ca">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="debc31d8-d058-4b21-9ce3-c172b4c830ad">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>time</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="562e41b9-ecc5-44cb-84f5-ad54ed7312ba">
+        <AttributeRelationship dwd:design-time-name="78663118-8d42-4743-aa18-e9964390c1af">
           <AttributeID>Time Hour</AttributeID>
           <Name>Time Hour</Name>
         </AttributeRelationship>
@@ -227,13 +227,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c149e98f-70bd-4519-bcf4-3b6964d3359b">
+    <Attribute dwd:design-time-name="5aad601d-04d4-4bff-93e9-44cc7c21ccd4">
       <ID>Time Hour</ID>
       <Name>Time Hour</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="49734b25-74f3-4c3b-a3d0-c8d4d4d2b6dd">
+        <KeyColumn dwd:design-time-name="6d09062d-17d8-44b0-8f43-a05d0cb259cc">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfaead04-f41f-493f-a585-475b32489e23">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60c5c289-906d-4ba1-98b0-144fbff93a4b">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>timeHour</ColumnID>
           </Source>
@@ -243,14 +243,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7e7ba918-0333-4716-b169-bc85b04af002">
+    <Attribute dwd:design-time-name="c0b00766-2ef9-4dd8-bb43-f69a11bf035a">
       <ID>Payment</ID>
       <Name>Payment</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="af131681-4bd5-4b5d-8044-fd625ec2adea">
+        <KeyColumn dwd:design-time-name="7b515082-e593-4314-bf39-31077747b896">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f06c70bc-37f0-42bc-8c44-92cc840a67b9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed70e78c-61d4-4baf-9a18-22c1e8ef07a6">
             <TableID>dbo_dimInvoice</TableID>
             <ColumnID>payment</ColumnID>
           </Source>
@@ -261,26 +261,26 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="8b9057f8-0fb1-4df7-9191-a8cd4965c7cc">
+    <Hierarchy dwd:design-time-name="f4682d6c-68ec-4de1-961a-20185c3c25b1">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="7da3553b-5e87-469e-9a5f-c70183ef90fb">
+        <Level dwd:design-time-name="84d39a29-c21a-4c05-969e-e0e7de61dde2">
           <ID>Time Hour</ID>
           <Name>Time Hour</Name>
           <SourceAttributeID>Time Hour</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e7541622-d80b-4dde-b958-5430d534fe6d">
+        <Level dwd:design-time-name="234bc8a7-2f8d-4aa5-a8c6-c644dabac9e1">
           <ID>Time</ID>
           <Name>Time</Name>
           <SourceAttributeID>Time</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="3efe8833-bd0f-44c4-b7e4-5eefb156ff8d">
+        <Level dwd:design-time-name="5d5defdd-595d-4fc3-bb63-a2ecbfded75b">
           <ID>Invoice ID</ID>
           <Name>Invoice ID</Name>
           <SourceAttributeID>Invoice ID</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="194704c0-0baf-42d6-9d6c-50f263ab6f77">
+        <Level dwd:design-time-name="da436005-997f-44da-99ca-38b907535fb8">
           <ID>Invoice NK</ID>
           <Name>Invoice NK</Name>
           <SourceAttributeID>Invoice NK</SourceAttributeID>

@@ -3,11 +3,10 @@
     <DataSources>
       <DataSource>
         <ID>Dds olap</ID>
-        <ConnectionString>Provider=SQLOLEDB.1;Data Source=localhost;Persist Security Info=True;Password=;User ID=;Initial Catalog=dds</ConnectionString>
+        <ConnectionString>Provider=SQLOLEDB.1;Data Source=MSI;Integrated Security=SSPI;Initial Catalog=DDS</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">sa</Account>
-          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
