@@ -22,3 +22,17 @@ INSERT INTO metadata.dbo.DataFlow (id, name, LSET, CET) VALUES (7, N'nds_city', 
 INSERT INTO metadata.dbo.DataFlow (id, name, LSET, CET) VALUES (8, N'nds_customer', N'2023-12-11 01:33:16.000', N'2023-12-11 01:33:18.000');
 INSERT INTO metadata.dbo.DataFlow (id, name, LSET, CET) VALUES (9, N'nds_product', N'2023-12-13 01:41:24.873', N'2023-12-13 01:41:24.873');
 INSERT INTO metadata.dbo.DataFlow (id, name, LSET, CET) VALUES (10, N'nds_productLine', N'2023-12-13 00:53:44.373', N'2023-12-13 00:53:44.373');
+
+-- Initial CET, LSET
+insert into DataFLow (id, name, LSET, CET)
+values (11, 'dds_product', '2023-12-15', '2023-12-15')
+
+insert into DataFLow (id, name, status, LSET, CET)
+values (12, 'dds_invoice', '2023-12-15', '2023-12-15')
+
+insert into DataFLow (id, name, status, LSET, CET)
+values (13, 'dds_branch', '2023-12-15', '2023-12-15')
+
+insert into DataFLow (id, name, status, LSET, CET)
+values (14, 'dds_product_sales', '2023-12-15', '2023-12-15')
+-- Creating database

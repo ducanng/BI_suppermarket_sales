@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="NDStoDDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="43"
-  DTS:VersionGUID="{2BCF538C-9EBC-42BD-A219-E2AF30BED81F}">
+  DTS:VersionBuild="51"
+  DTS:VersionGUID="{0E734827-DB49-4E4C-9890-F654EF25C4C1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZ7+cg+VXe0ATEt9uJweTrpQazKZspDdGKcmFeAlwy0wAAAAAOgAAAAAIAACAAAADpuyZB/WFONn3yt8JGxm73oE6XuRKSnLNkozjSSQnG1yAAAABsu1QH8pjhMaSUdGls7MBhDAy40oPk2aS6ZIkY6Jih90AAAAAItqUXVAmGfLI7zLQiH707wRoLok2tnzGS44UgGItdr/cbGg/KhYJJXhbeE6IN5mRFFNHQ3vtNz+SKpeJHGtMr</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA6HthggqY4mLMV5o50AEHRZVvK1LZfHUG2q28R0HW6mgAAAAAOgAAAAAIAACAAAADO8L8ylmmIn5vz9k1EPkFUPxxqe/JwJxgBzB0jgW2KbCAAAAA67Wf3P83gwaljDuNKGqylzgMiCVUr77vY/9zlupBD5UAAAAALOCLuel8sVWTAYiXE3AeWcOHeqmWzNKUiMWD8u/4OTn7/A8OuebQ3l6c3cAUr9NCvg1ZKehGa3YRpB2Ta0GKc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNtWFxrAHr4veUsQPArilY+O3L/5tbVEcaU4MS1WuA8wAAAAAOgAAAAAIAACAAAACRBlPb8WolCOjlrNGjS2CL6zzi8wP6rBRFC7Cl44wlXSAAAAB2v3vWXcDON8VVOY4UE2/cQpD35XVBWO0SsdPELAfn50AAAACzvtOl/1QeUWIv5UQHhvO/4C66R0MO7ARL4lHPwLXDYNNF9G47VDLPMTq2qIuzxKV1aumsxNyUtlrqYXOMM28z</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABOebcX1kL2R7GU82wYJ2tfXO6ChLFU5C+1zq3aAkkOoQAAAAAOgAAAAAIAACAAAABE7LNAj+NlAg/0IeZ8u+BO46dE2C3ISIwORn7h6FrIQyAAAACNIyegMHp67TXFD/P2IbEnVJvkv+30VHgRTjtPKi3eRkAAAADc2HX7P8+LxD2VbOOnk5qNB2scJjpOaHtYKU3hENt8PAJHp7OCVdwpHh1LK31QYlV5tr+zin7YyVWP6MO//lq0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -61,7 +61,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZO8/Xoipwif5szY04SPU08hkZghK32ua5qxQbIIqH5AAAAAAOgAAAAAIAACAAAADc+0e4dHM2vDoahyi+XiNZoSIMNTV6t1PMUopfHGcIWiAAAABPSNaXbFis0Su4bD7wCR3Q78oHziwup3PmMKJ97N2RDkAAAADmCByzcqnSGsvzt4LPgU/ou3W18Mb1lnKoxhrw1AWOH6VNSYLQgV8Hb4vMopLCVJbV+PZ2OfnY4KFLE2jrxrgq</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACZOvK+iibwJx4COubot64Ka3ayoY6v8XYLo4MBX+ujmgAAAAAOgAAAAAIAACAAAABCIq0aO9GnqrBv60oo5PpGuIntsyOYjlF0oKloErhc2CAAAABG56CTwZXHZIdVog9oSYE+i3qgp70rayEY05JkZ0G7EEAAAAAS/ukKTXIwLyR5ZrQg1Gvxp3+0SYASQyY2fcTglg2qbvl93UdIxASdoq9DrRQiPwNYstqXQGCF9RhAvAFvOzoX</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -78,7 +78,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAhTnR5WvCoeL7RigcnZjO8GMg/4d7eNxCP8OnscJEPpQAAAAAOgAAAAAIAACAAAADZWNcHq9wGJK+Qr+g4BtL5sd1cnbrkxUyup17EHim8OSAAAABRg1Gi2uzr/U+RxgDGGfm0sI5eegna8qq5e+V/znANF0AAAAAQeyhoDLsdxqkIhzd5d/efGDMRnWcwH71bbOoxCTuQG1/FIcpHW7FJpBXIinaKTL+aoLid5oBef781NgREBxgG</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/F8EBwjHji/vlSBaw/Fu6GuGT+fXks0BMkKbQIGxFQQAAAAAOgAAAAAIAACAAAADiSCa4AMX0q/VmuTnerma6RBKIyDBZoQEv732Eytu97CAAAABlZoZlhsiLfWDRc6P+4vOHkUTUG/pjHcC1SXjUF5r7HEAAAAD9FhFHh0GEjtlpgXbeBLnNj7qd02/3kx5niTxZR2sEtTYejrcwOJRkXcGADmWbmDJsgMrNCwnXL5YzoZSu+8lr</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -224,7 +224,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Get Branch LSET"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -274,7 +274,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Get Invoice LSET"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -2303,13 +2303,14 @@ where [refTable].[CustomerID] = ?</property>
                           name="gender" />
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Invoice Dimension\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[time]"
-                          dataType="dbTime2"
-                          name="time"
-                          scale="7" />
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="time" />
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Invoice Dimension\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[payment]"
                           dataType="wstr"
-                          length="255"
+                          length="100"
                           name="payment" />
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Invoice Dimension\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
@@ -2623,7 +2624,7 @@ where [refTable].[CustomerID] = ?</property>
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
                           dataType="wstr"
-                          length="255"
+                          length="100"
                           name="Param_4">
                           <properties>
                             <property
@@ -2645,9 +2646,10 @@ where [refTable].[CustomerID] = ?</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
-                          dataType="dbTime2"
-                          name="Param_6"
-                          scale="7">
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          name="Param_6">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -4209,7 +4211,7 @@ or (UpdatedAt&gt;= ? and UpdatedAt&lt; ?)</property>
                         </externalMetadataColumn>
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Product Dimension\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                          dataType="i8"
+                          dataType="i4"
                           name="Param_3">
                           <properties>
                             <property
@@ -4650,14 +4652,14 @@ or (UpdatedAt&gt;= ? and UpdatedAt&lt; ?)</property>
                       description="Specifies the SQL statement that generates the lookup table."
                       expressionType="Notify"
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select ProductLineID, ProductLine
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select ProductLineID, ProductLine 
 from nds_productLine</property>
                     <property
                       dataType="System.String"
                       description="Specifies a SQL statement that uses parameters to generate the lookup table."
                       expressionType="Notify"
                       name="SqlCommandParam"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select ProductLineID, ProductLine
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select ProductLineID, ProductLine 
 from nds_productLine) [refTable]
 where [refTable].[ProductLineID] = ?</property>
                     <property
@@ -5507,23 +5509,11 @@ where [refTable].[ProductLineID] = ?</property>
                           externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[UpdatedAt]"
                           lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[UpdatedAt]" />
                         <inputColumn
-                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[tax]"
-                          cachedDataType="r8"
-                          cachedName="tax"
-                          externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[tax]"
-                          lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[tax]" />
-                        <inputColumn
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[quantity]"
                           cachedDataType="r8"
                           cachedName="quantity"
                           externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[quantity]"
                           lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[quantity]" />
-                        <inputColumn
-                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[dateID]"
-                          cachedDataType="i4"
-                          cachedName="dateID"
-                          externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[dateID]"
-                          lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[dateID]" />
                         <inputColumn
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[invoiceID]"
                           cachedDataType="i8"
@@ -5566,6 +5556,18 @@ where [refTable].[ProductLineID] = ?</property>
                           cachedName="rating"
                           externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Rating]"
                           lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[rating]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[dateID]"
+                          cachedDataType="i4"
+                          cachedName="dateID"
+                          externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[dateID]"
+                          lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[dateID]" />
+                        <inputColumn
+                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].Columns[tax]"
+                          cachedDataType="r8"
+                          cachedName="tax"
+                          externalMetadataColumnId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[tax]"
+                          lineageId="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source.Outputs[OLE DB Source Output].Columns[tax]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -5586,10 +5588,6 @@ where [refTable].[ProductLineID] = ?</property>
                           dataType="dbTimeStamp"
                           name="UpdatedAt" />
                         <externalMetadataColumn
-                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[dateID]"
-                          dataType="i8"
-                          name="dateID" />
-                        <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[branchID]"
                           dataType="i8"
                           name="branchID" />
@@ -5601,10 +5599,6 @@ where [refTable].[ProductLineID] = ?</property>
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[quantity]"
                           dataType="i4"
                           name="quantity" />
-                        <externalMetadataColumn
-                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[tax]"
-                          dataType="r8"
-                          name="tax" />
                         <externalMetadataColumn
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[total]"
                           dataType="r8"
@@ -5625,6 +5619,14 @@ where [refTable].[ProductLineID] = ?</property>
                           refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Rating]"
                           dataType="r8"
                           name="Rating" />
+                        <externalMetadataColumn
+                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[dateID]"
+                          dataType="i8"
+                          name="dateID" />
+                        <externalMetadataColumn
+                          refId="Package\Sequence Container\Populate Product Sales Fact\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[tax]"
+                          dataType="r8"
+                          name="tax" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -6162,13 +6164,13 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         <NodeLayout
           Size="161,42"
           Id="Package\Sequence Container\Get Product LSET"
-          TopLeft="49.6071429510353,131.867646948057" />
+          TopLeft="49.6071429510353,133.117646948057" />
         <NodeLayout
           Size="207,42"
           Id="Package\Sequence Container\Populate Branch Dimension"
           TopLeft="259.428572006371,238.932352567655" />
         <NodeLayout
-          Size="209,42"
+          Size="210,42"
           Id="Package\Sequence Container\Populate Invoice Dimension"
           TopLeft="638.692858560368,253.39705839806" />
         <NodeLayout
@@ -6178,33 +6180,33 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         <NodeLayout
           Size="209,42"
           Id="Package\Sequence Container\Populate Product Sales Fact"
-          TopLeft="285.807143680128,576.079411162279" />
+          TopLeft="284.557143680128,577.329411162279" />
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint]"
-          TopLeft="743.092858560368,294.99705839806">
+          TopLeft="743.692858560368,295.39705839806">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-333.142857935052,199.447058737062"
+              EndConnector="-333.442857935051,199.047058737062"
               Start="0,0"
-              End="-333.142857935052,191.947058737062">
+              End="-333.442857935051,191.547058737062">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,126.752314712816" />
+                    End="0,126.49558207658" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,126.752314712816"
-                    Point2="0,130.752314712816"
-                    Point3="-4,130.752314712816" />
+                    Point1="0,126.49558207658"
+                    Point2="0,130.49558207658"
+                    Point3="-4,130.49558207658" />
                   <mssgle:LineSegment
-                    End="-329.142857935052,130.752314712816" />
+                    End="-329.442857935051,130.49558207658" />
                   <mssgle:CubicBezierSegment
-                    Point1="-329.142857935052,130.752314712816"
-                    Point2="-333.142857935052,130.752314712816"
-                    Point3="-333.142857935052,134.752314712816" />
+                    Point1="-329.442857935051,130.49558207658"
+                    Point2="-333.442857935051,130.49558207658"
+                    Point3="-333.442857935051,134.49558207658" />
                   <mssgle:LineSegment
-                    End="-333.142857935052,191.947058737062" />
+                    End="-333.442857935051,191.547058737062" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6215,30 +6217,30 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint 1]"
-          TopLeft="130.007142951035,173.467646948056">
+          TopLeft="130.107142951035,175.117646948057">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-19.3071429510352,55.7088234441173"
+              EndConnector="-19.6071429510353,54.058823444117"
               Start="0,0"
-              End="-19.3071429510352,48.2088234441173">
+              End="-19.6071429510353,46.558823444117">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.8544117220586" />
+                    End="0,23.0294117220585" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,23.8544117220586"
-                    Point2="0,27.8544117220586"
-                    Point3="-4,27.8544117220586" />
+                    Point1="0,23.0294117220585"
+                    Point2="0,27.0294117220585"
+                    Point3="-4,27.0294117220585" />
                   <mssgle:LineSegment
-                    End="-15.3071429510352,27.8544117220586" />
+                    End="-15.6071429510353,27.0294117220585" />
                   <mssgle:CubicBezierSegment
-                    Point1="-15.3071429510352,27.8544117220586"
-                    Point2="-19.3071429510352,27.8544117220586"
-                    Point3="-19.3071429510352,31.8544117220586" />
+                    Point1="-15.6071429510353,27.0294117220585"
+                    Point2="-19.6071429510353,27.0294117220585"
+                    Point3="-19.6071429510353,31.0294117220585" />
                   <mssgle:LineSegment
-                    End="-19.3071429510352,48.2088234441173" />
+                    End="-19.6071429510353,46.558823444117" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6283,30 +6285,30 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint 1 2]"
-          TopLeft="763.292858656162,198.644117306046">
+          TopLeft="763.192858656161,199.044117306046">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-20.200000095793,54.752941092014"
+              EndConnector="-19.500000095793,54.352941092014"
               Start="0,0"
-              End="-20.200000095793,47.252941092014">
+              End="-19.500000095793,46.852941092014">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.376470546007" />
+                    End="0,23.176470546007" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,23.376470546007"
-                    Point2="0,27.376470546007"
-                    Point3="-4,27.376470546007" />
+                    Point1="0,23.176470546007"
+                    Point2="0,27.176470546007"
+                    Point3="-4,27.176470546007" />
                   <mssgle:LineSegment
-                    End="-16.200000095793,27.376470546007" />
+                    End="-15.500000095793,27.176470546007" />
                   <mssgle:CubicBezierSegment
-                    Point1="-16.200000095793,27.376470546007"
-                    Point2="-20.200000095793,27.376470546007"
-                    Point3="-20.200000095793,31.376470546007" />
+                    Point1="-15.500000095793,27.176470546007"
+                    Point2="-19.500000095793,27.176470546007"
+                    Point3="-19.500000095793,31.176470546007" />
                   <mssgle:LineSegment
-                    End="-20.200000095793,47.252941092014" />
+                    End="-19.500000095793,46.852941092014" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6385,30 +6387,30 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint 4]"
-          TopLeft="372.550000625317,536.044117135122">
+          TopLeft="372.750000625317,536.444117135122">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="17.6571430548117,40.0352940271572"
+              EndConnector="16.307143054811,40.885294027157"
               Start="0,0"
-              End="17.6571430548117,32.5352940271572">
+              End="16.307143054811,33.385294027157">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.0176470135786" />
+                    End="0,16.4426470135785" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.0176470135786"
-                    Point2="0,20.0176470135786"
-                    Point3="4,20.0176470135786" />
+                    Point1="0,16.4426470135785"
+                    Point2="0,20.4426470135785"
+                    Point3="4,20.4426470135785" />
                   <mssgle:LineSegment
-                    End="13.6571430548117,20.0176470135786" />
+                    End="12.307143054811,20.4426470135785" />
                   <mssgle:CubicBezierSegment
-                    Point1="13.6571430548117,20.0176470135786"
-                    Point2="17.6571430548117,20.0176470135786"
-                    Point3="17.6571430548117,24.0176470135786" />
+                    Point1="12.307143054811,20.4426470135785"
+                    Point2="16.307143054811,20.4426470135785"
+                    Point3="16.307143054811,24.4426470135785" />
                   <mssgle:LineSegment
-                    End="17.6571430548117,32.5352940271572" />
+                    End="16.307143054811,33.385294027157" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6912,26 +6914,63 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sequence Container\Populate Branch Dimension\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Sequence Container\Populate Invoice Dimension">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="150,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Source"
-          TopLeft="157.5,5.5" />
+          Size="175,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command 1"
+          TopLeft="294,311.5" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\Union All"
+          TopLeft="172,515.5" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\Insert Destination"
+          TopLeft="151,719.5" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\Derived Column"
+          TopLeft="17.5000000000001,311.5" />
         <NodeLayout
           Size="208,42"
           Id="Package\Sequence Container\Populate Invoice Dimension\Slowly Changing Dimension"
           TopLeft="128.5,209.5" />
         <NodeLayout
+          Size="150,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Source"
+          TopLeft="157.5,5.5" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\Derived Column 1"
+          TopLeft="151,617.5" />
+        <NodeLayout
           Size="123,42"
           Id="Package\Sequence Container\Populate Invoice Dimension\Customer"
           TopLeft="171,107.5" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command"
+          TopLeft="5.50000000000006,413.5" />
         <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Lookup Match Output]"
-          TopLeft="232.5,149.5">
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Union All Output 1]"
+          TopLeft="232.5,557.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6948,9 +6987,7 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6975,64 +7012,32 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="154,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\Derived Column"
-          TopLeft="17.5000000000001,311.5" />
         <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Historical Attribute Inserts Output]"
-          TopLeft="182.5,251.5">
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[OLE DB Command Output]"
+          TopLeft="88.5000000000001,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-88,60"
+              EndConnector="125.166666666667,60"
               Start="0,0"
-              End="-88,52.5">
+              End="125.166666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.506329113924" />
+                    End="0,31.5301794453507" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.506329113924"
-                    Point2="0,20.506329113924"
-                    Point3="-4,20.506329113924" />
+                    Point1="0,31.5301794453507"
+                    Point2="0,35.5301794453507"
+                    Point3="4,35.5301794453507" />
                   <mssgle:LineSegment
-                    End="-84,20.506329113924" />
+                    End="121.166666666667,35.5301794453507" />
                   <mssgle:CubicBezierSegment
-                    Point1="-84,20.506329113924"
-                    Point2="-88,20.506329113924"
-                    Point3="-88,24.506329113924" />
+                    Point1="121.166666666667,35.5301794453507"
+                    Point2="125.166666666667,35.5301794453507"
+                    Point3="125.166666666667,39.5301794453507" />
                   <mssgle:LineSegment
-                    End="-88,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-119.05638671875,25.506329113924,150.1127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command"
-          TopLeft="5.50000000000006,413.5" />
-        <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Derived Column Output]"
-          TopLeft="91.5000000000001,353.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="125.166666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7041,10 +7046,6 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\Union All"
-          TopLeft="172,515.5" />
         <EdgeLayout
           Id="Package\Sequence Container\Populate Invoice Dimension.Paths[New Output]"
           TopLeft="232.5,251.5">
@@ -7082,46 +7083,8 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[OLE DB Command Output]"
-          TopLeft="88.5000000000001,455.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="125.166666666667,60"
-              Start="0,0"
-              End="125.166666666667,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5301794453507" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5301794453507"
-                    Point2="0,35.5301794453507"
-                    Point3="4,35.5301794453507" />
-                  <mssgle:LineSegment
-                    End="121.166666666667,35.5301794453507" />
-                  <mssgle:CubicBezierSegment
-                    Point1="121.166666666667,35.5301794453507"
-                    Point2="125.166666666667,35.5301794453507"
-                    Point3="125.166666666667,39.5301794453507" />
-                  <mssgle:LineSegment
-                    End="125.166666666667,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\Derived Column 1"
-          TopLeft="151,617.5" />
-        <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Union All Output 1]"
-          TopLeft="232.5,557.5">
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Lookup Match Output]"
+          TopLeft="232.5,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7138,39 +7101,11 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\Insert Destination"
-          TopLeft="151,719.5" />
-        <EdgeLayout
-          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Derived Column Output1]"
-          TopLeft="232.5,659.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Sequence Container\Populate Invoice Dimension\OLE DB Command 1"
-          TopLeft="294,311.5" />
         <EdgeLayout
           Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Inferred Member Updates Output]"
           TopLeft="282.5,251.5">
@@ -7207,14 +7142,99 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Historical Attribute Inserts Output]"
+          TopLeft="182.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-88,60"
+              Start="0,0"
+              End="-88,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.506329113924" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.506329113924"
+                    Point2="0,20.506329113924"
+                    Point3="-4,20.506329113924" />
+                  <mssgle:LineSegment
+                    End="-84,20.506329113924" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-84,20.506329113924"
+                    Point2="-88,20.506329113924"
+                    Point3="-88,24.506329113924" />
+                  <mssgle:LineSegment
+                    End="-88,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-119.05638671875,25.506329113924,150.1127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Derived Column Output1]"
+          TopLeft="232.5,659.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\Populate Invoice Dimension.Paths[Derived Column Output]"
+          TopLeft="91.5000000000001,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Sequence Container\Populate Invoice Dimension\OLE DB Source">
+    design-time-name="Package\Sequence Container\Populate Invoice Dimension\Insert Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -7308,6 +7328,14 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Sequence Container\Populate Invoice Dimension\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Sequence Container\Populate Invoice Dimension\Customer">
     <Properties>
       <Property>
@@ -7370,7 +7398,7 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
         <NodeLayout
           Size="182,42"
           Id="Package\Sequence Container\Populate Product Dimension\OLE DB Command 1"
-          TopLeft="301,311.5" />
+          TopLeft="249,307.5" />
         <NodeLayout
           Size="150,42"
           Id="Package\Sequence Container\Populate Product Dimension\OLE DB Source"
@@ -7381,33 +7409,33 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="132,60"
+              EndConnector="80,56"
               Start="0,0"
-              End="132,52.5">
+              End="80,48.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.8085106382979" />
+                    End="0,21.0212765957447" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.8085106382979"
-                    Point2="0,26.8085106382979"
-                    Point3="4,26.8085106382979" />
+                    Point1="0,21.0212765957447"
+                    Point2="0,25.0212765957447"
+                    Point3="4,25.0212765957447" />
                   <mssgle:LineSegment
-                    End="128,26.8085106382979" />
+                    End="76,25.0212765957447" />
                   <mssgle:CubicBezierSegment
-                    Point1="128,26.8085106382979"
-                    Point2="132,26.8085106382979"
-                    Point3="132,30.8085106382979" />
+                    Point1="76,25.0212765957447"
+                    Point2="80,25.0212765957447"
+                    Point3="80,29.0212765957447" />
                   <mssgle:LineSegment
-                    End="132,52.5" />
+                    End="80,48.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-8.40298828125,31.8085106382979,148.8059765625,11.658203125"
+              BoundingBox="-34.40298828125,30.0212765957447,148.8059765625,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -7535,7 +7563,7 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="88.96609375,22.8378378378378,157.0678125,11.6630859375"
+              BoundingBox="89.46609375,22.8378378378378,157.0678125,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -7649,7 +7677,7 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-7.50805338541669,147.530202745071,54.1827734375,11.43359375"
+              BoundingBox="-7.5080533854167,147.530202745071,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -7686,7 +7714,7 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -7696,10 +7724,23 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sequence Container\Populate Product Dimension\Insert Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -7793,37 +7834,35 @@ or (ni.UpdatedAt&gt;= ? and ni.UpdatedAt&lt; ?)</property>
     design-time-name="Package\Sequence Container\Populate Product Sales Fact">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="150,42"
           Id="Package\Sequence Container\Populate Product Sales Fact\OLE DB Source"
-          TopLeft="209.999996870756,440.599994948506" />
+          TopLeft="208.999996870756,441.599994948506" />
         <NodeLayout
           Size="162,42"
           Id="Package\Sequence Container\Populate Product Sales Fact\Insert Destination"
           TopLeft="204.999996945262,577.199994426966" />
         <EdgeLayout
           Id="Package\Sequence Container\Populate Product Sales Fact.Paths[OLE DB Source Output]"
-          TopLeft="285.499996908009,482.199994948506">
+          TopLeft="284.999996908009,483.599994948506">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,94.9999994784593"
+              EndConnector="0,93.59999947846"
               Start="0,0"
-              End="0,87.4999994784593">
+              End="0,86.09999947846">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,87.4999994784593" />
+                    End="0,86.09999947846" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -7,12 +7,12 @@
   DTS:CreatorName="DUCAN\ducan"
   DTS:DTSID="{6E7DE6B1-9AB0-49D5-91CF-44DCE1446AAE}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5314.0"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
   DTS:LocaleID="1033"
   DTS:ObjectName="customer_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{8D782095-CDBF-46E1-8574-B884050CF9E8}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{6E8B8A25-60C4-41BF-A8CE-70CA7A64D667}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -205,7 +205,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]"
@@ -216,13 +216,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_I8)8</property>
+                          name="Expression">8</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_I8)8</property>
+                          name="FriendlyExpression">8</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -465,7 +465,7 @@
                       lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[Gender]" />
                     <inputColumn
                       refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].Columns[sourceID]"
-                      cachedDataType="i8"
+                      cachedDataType="i4"
                       cachedName="sourceID"
                       externalMetadataColumnId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
                       lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]" />
@@ -508,7 +508,7 @@
                       name="Gender" />
                     <externalMetadataColumn
                       refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       name="sourceID" />
                     <externalMetadataColumn
                       refId="Package\customer stage to nds\insert new customer.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
@@ -636,7 +636,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
-                      cachedDataType="i8"
+                      cachedDataType="i4"
                       cachedName="sourceID"
                       externalMetadataColumnId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
                       lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
@@ -662,7 +662,7 @@
                       name="Gender" />
                     <externalMetadataColumn
                       refId="Package\customer stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       name="sourceID" />
                   </externalMetadataColumns>
                 </input>
@@ -777,7 +777,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\customer stage to nds\Sort.Inputs[Sort Input].Columns[sourceID]"
-                      cachedDataType="i8"
+                      cachedDataType="i4"
                       cachedName="sourceID"
                       lineageId="Package\customer stage to nds\add sourceID.Outputs[Derived Column Output].Columns[sourceID]">
                       <properties>
@@ -833,7 +833,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       lineageId="Package\customer stage to nds\Sort.Outputs[Sort Output].Columns[sourceID]"
                       name="sourceID">
                       <properties>
@@ -996,7 +996,7 @@
         <NodeLayout
           Size="155,42"
           Id="Package\customer stage to nds"
-          TopLeft="73,223" />
+          TopLeft="73,222" />
         <NodeLayout
           Size="179,42"
           Id="Package\get LSET from metadata 2"
@@ -1015,14 +1015,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,45"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,37.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1033,18 +1033,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2 2]"
-          TopLeft="151.5,265">
+          TopLeft="151.5,264">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,40"
+              EndConnector="0,41"
               Start="0,0"
-              End="0,32.5">
+              End="0,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.5" />
+                    End="0,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1086,41 +1086,41 @@
         <NodeLayout
           Size="144,42"
           Id="Package\customer stage to nds\add sourceID"
-          TopLeft="271,64.5" />
+          TopLeft="224,107.5" />
         <NodeLayout
           Size="177,42"
           Id="Package\customer stage to nds\insert new customer"
-          TopLeft="270.5,356.5" />
+          TopLeft="209.5,499.5" />
         <NodeLayout
           Size="157,42"
           Id="Package\customer stage to nds\get customer from stage"
-          TopLeft="263.5,5.49999999999989" />
+          TopLeft="217.5,5.49999999999989" />
         <NodeLayout
           Size="216,42"
           Id="Package\customer stage to nds\Slowly Changing Dimension"
-          TopLeft="237,137.5" />
+          TopLeft="188,209.5" />
         <NodeLayout
           Size="158,42"
           Id="Package\customer stage to nds\add createdAt and updatedAt"
-          TopLeft="273,290.5" />
+          TopLeft="219,397.5" />
         <NodeLayout
           Size="99,42"
           Id="Package\customer stage to nds\Sort"
-          TopLeft="300.5,212.5" />
+          TopLeft="248.5,295.5" />
         <EdgeLayout
           Id="Package\customer stage to nds.Paths[Sort Output]"
-          TopLeft="351,254.5">
+          TopLeft="298,337.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,28.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1131,30 +1131,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\customer stage to nds.Paths[OLE DB Source Output]"
-          TopLeft="263.5,26.4999999999999">
+          TopLeft="296,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="7.5,59.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,59.0000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-18.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-18.5,0"
-                    Point2="-22.5,0"
-                    Point3="-22.5,4" />
-                  <mssgle:LineSegment
-                    End="-22.5,55.0000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-22.5,55.0000000000001"
-                    Point2="-22.5,59.0000000000001"
-                    Point3="-18.5,59.0000000000001" />
-                  <mssgle:LineSegment
-                    End="0,59.0000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1164,43 +1152,19 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\customer stage to nds.Paths[New Output]"
-          TopLeft="347.5,179.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33"
-              Start="0,0"
-              End="0,25.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.09138671875,7.033203125,54.1827734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\customer stage to nds.Paths[Derived Column Output1]"
-          TopLeft="344,106.5">
+          TopLeft="296,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,23.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1211,18 +1175,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\customer stage to nds.Paths[Derived Column Output]"
-          TopLeft="355.5,332.5">
+          TopLeft="298,439.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,24"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,16.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1231,9 +1195,46 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\customer stage to nds.Paths[New Output]"
+          TopLeft="297,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-27.09138671875,12.533203125,54.1827734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\customer stage to nds\insert new customer">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\customer stage to nds\get customer from stage">
     <Properties>

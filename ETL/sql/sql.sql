@@ -1,23 +1,3 @@
-
--- Get CET
-update DataFLow
-set status = 3, CET = getdate()
-where name = 'dds_product'
-
-
--- Initial CET, LSET
-insert into DataFLow (id, name, status, LSET, CET)
-values (11, 'dds_product', 0, '2023-12-15', '2023-12-15')
-
-insert into DataFLow (id, name, status, LSET, CET)
-values (12, 'dds_invoice', 0, '2023-12-15', '2023-12-15')
-
-insert into DataFLow (id, name, status, LSET, CET)
-values (13, 'dds_branch', 0, '2023-12-15', '2023-12-15')
-
-insert into DataFLow (id, name, status, LSET, CET)
-values (14, 'dds_product_sales', 0, '2023-12-15', '2023-12-15')
--- Creating database
 create database dds
 go
 use dds

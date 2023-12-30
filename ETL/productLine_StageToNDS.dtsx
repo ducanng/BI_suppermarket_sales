@@ -7,12 +7,12 @@
   DTS:CreatorName="DUCAN\ducan"
   DTS:DTSID="{2651FD53-04F0-4100-91D9-689CE31EC2B9}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5314.0"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
   DTS:LocaleID="1033"
   DTS:ObjectName="productLine_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="45"
-  DTS:VersionGUID="{1D7932E6-ED1F-4121-A125-BEB2707FFF1F}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{7332907F-1312-45E9-B4B7-4F6A4CCED0F8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACA65yY4XncdRoQK/+HdQq5c4KV9aCQ5756Wf0SNblh/wAAAAAOgAAAAAIAACAAAAAkWgrRN7gRHOr+bWMJNy4AhkWGHLWe5BFkJo2pyB4VLyAAAABA602I8tp+N5cubQiN0OEpV8tlOP+S5Am/zT5Uph6CyUAAAAAlLiBSg1mVw04Xatr+LvpOhrGiOOjRnlXp/OeIu51ziPzxK44OWTkQyyJXZZxMHvIZQcKLtm50bFyjvWlXFB5w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAANWp7IXncydSKj7kCxt2GV/4c1PIx6H7DS5FhPSGbNfgAAAAAOgAAAAAIAACAAAAC/cnsgu9KUN4EghcPnQT/jBvPU/WopvzCuQjrLeVOMRiAAAABnOppGAO+/aIlU8rRBbzmz1ECIq3Us4ewaQuQW21GBwEAAAADk1m92os3Xjbi4sU8+/Mj7IY8IdRKxDMR2UIEdEiklZOG0d9Tk/pfBzNWrqQk9SuBrgYJ0yV8QYTHjpom4/Vb1</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdoZGqEfMCFObuI0Xp6jXX/gXfEoGUmgE9ShCAQedhkAAAAAAOgAAAAAIAACAAAADUZTHJqS5oC0x5dnw4CA4UB4OU7ESJ4LFfUdMLXcp4jiAAAADELeMeJPKDdrxtYTjqCUll+M5Eo7LbkFPo0CUtJ+G9yEAAAADanMCpf/ufmLCF9ZuAPRSa4qnch2hczDPVkL+zwsvrSmR/Mih4F1NUeF66Y7ZLHkZB93APrSpO8Fu6bfER+yxy</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADVBUbNE/Z8iLXCbjLKQFpI5wzJhTahBBimJD61LiM+RgAAAAAOgAAAAAIAACAAAAB09w00sBuh84Cxt8Q3TrAaazywkl6dZSTwVi2dLyyQByAAAADXfG6kwsQVhZV5IRnhHB+mbk1ZtkUa4JMZYaaepZQfREAAAABrGsB/taEYV+sN1aqvrls+ioFcHvL+rCioXglopJFMcNETbcT3Y5h3tcvbu7fEss/tPfub0LSnLrnhZ/a8Tmey</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -63,7 +63,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADF/KJ9dzdqFugqDhHUMwLIrpwMTAFMAnxvaiPJNcrIgwAAAAAOgAAAAAIAACAAAABhu1JW0fzzob9JedIBcsA75E3rRKNi1DVVsTTt7722iCAAAAADggaYy+W3/J+a0ZKhYc8x7OUfIXYrZBpXRFBVBR9LpkAAAAB+IrKlfVGAdiw9gPHYJCFZU0Imx/OqD3NbTM8jqc2LA1IwvyA3jBg6siI4hhwgSoha4OPP+R8rVS7Ag4vKczx7</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPfVU7OwO0yOX6d+PnUUeAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACh+VxQ2D1KsWmuwkEEg+CTC18hX6cO1/Q99UDd31NhMwAAAAAOgAAAAAIAACAAAACVB0lVUQbmnDzXcKPFXN+hnlYFZIKAl1W75tqQQJBVHSAAAAA6E4hVPDcaLS6jj40LAnTP6PH7f3SsTJlMzVC4Q/1z70AAAACxKHKtgSVm8MW9f/FTEM6stW65/17OFLrc7vaDmW5LPYeMg7Mp3/17l0pKRbFdCh4uVDYI9rTiRYfeddguDwr4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -638,7 +638,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       name="UpdatedAt" />
                     <externalMetadataColumn
                       refId="Package\productLine stage to nds\insert productLine to NDS.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       name="sourceID" />
                   </externalMetadataColumns>
                 </input>
@@ -680,7 +680,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                   dataType="System.String"
                   description="Specifies the SELECT statement used to create a schema rowset."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [ProductLine], [ProductLineNK], [sourceID] FROM [dbo].[nds_productLine]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [ProductLine], [ProductLineNK] FROM [dbo].[nds_productLine]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -688,11 +688,11 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
-                  name="UpdateChangingAttributeHistory">false</property>
+                  name="UpdateChangingAttributeHistory">true</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
-                  name="FailOnFixedAttributeChange">true</property>
+                  name="FailOnFixedAttributeChange">false</property>
                 <property
                   dataType="System.String"
                   description="Specifies the column name for the inferred member."
@@ -756,19 +756,6 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                           typeConverter="ColumnType">1</property>
                       </properties>
                     </inputColumn>
-                    <inputColumn
-                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[sourceID]"
-                      cachedDataType="i8"
-                      cachedName="sourceID"
-                      externalMetadataColumnId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
-                      lineageId="Package\productLine stage to nds\Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          name="ColumnType"
-                          typeConverter="ColumnType">4</property>
-                      </properties>
-                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -782,10 +769,6 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                       dataType="wstr"
                       length="255"
                       name="ProductLineNK" />
-                    <externalMetadataColumn
-                      refId="Package\productLine stage to nds\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[sourceID]"
-                      dataType="i8"
-                      name="sourceID" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -934,7 +917,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\productLine stage to nds\update productLine.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      dataType="i8"
+                      dataType="i4"
                       name="Param_2">
                       <properties>
                         <property
@@ -1110,13 +1093,13 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
-          Id="Package\productLine stage to nds"
-          TopLeft="85,257" />
-        <NodeLayout
           Size="170,42"
           Id="Package\get LSET from metadata"
           TopLeft="83,167" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\productLine stage to nds"
+          TopLeft="85,257" />
         <NodeLayout
           Size="179,42"
           Id="Package\set CET to metadata"
@@ -1202,45 +1185,45 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         <NodeLayout
           Size="216,46"
           Id="Package\productLine stage to nds\get productLine from stage"
-          TopLeft="444.5,5.5" />
+          TopLeft="204,5.5" />
         <NodeLayout
           Size="216,42"
           Id="Package\productLine stage to nds\Slowly Changing Dimension"
-          TopLeft="444.5,218.5" />
+          TopLeft="205,215.5" />
         <NodeLayout
           Size="208,42"
           Id="Package\productLine stage to nds\Derived CreatedAt &amp; UpdatedAt"
-          TopLeft="681.5,294.5" />
+          TopLeft="107,299.5" />
         <NodeLayout
           Size="173,42"
           Id="Package\productLine stage to nds\update productLine"
-          TopLeft="256,381.5" />
+          TopLeft="376.5,401.5" />
         <NodeLayout
           Size="174,42"
           Id="Package\productLine stage to nds\derrived UpdatedAt"
-          TopLeft="255.5,279.5" />
+          TopLeft="376,299.5" />
         <NodeLayout
           Size="186,42"
           Id="Package\productLine stage to nds\insert productLine to NDS"
-          TopLeft="692.5,396.5" />
+          TopLeft="118,401.5" />
         <NodeLayout
           Size="158,42"
           Id="Package\productLine stage to nds\Add col sourceID"
-          TopLeft="473.5,111.5" />
+          TopLeft="233,111.5" />
         <EdgeLayout
           Id="Package\productLine stage to nds.Paths[Derived Column Output2]"
-          TopLeft="552.5,153.5">
+          TopLeft="312.5,153.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,65"
+              EndConnector="0,62"
               Start="0,0"
-              End="0,57.5">
+              End="0,54.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.5" />
+                    End="0,54.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1251,7 +1234,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         </EdgeLayout>
         <EdgeLayout
           Id="Package\productLine stage to nds.Paths[Derived Column Output1]"
-          TopLeft="785.5,336.5">
+          TopLeft="211,341.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1273,7 +1256,7 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         </EdgeLayout>
         <EdgeLayout
           Id="Package\productLine stage to nds.Paths[Derived Column Output]"
-          TopLeft="342.5,321.5">
+          TopLeft="463,341.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1294,38 +1277,8 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\productLine stage to nds.Paths[Changing Attribute Updates Output]"
-          TopLeft="444.5,239.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-102,40"
-              Start="0,0"
-              End="-102,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-98.0000000000001,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-98.0000000000001,0"
-                    Point2="-102,0"
-                    Point3="-102,4" />
-                  <mssgle:LineSegment
-                    End="-102,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-180.53390625,-17.6630859375,157.0678125,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\productLine stage to nds.Paths[OLE DB Source Output]"
-          TopLeft="552.5,51.5">
+          TopLeft="312,51.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1347,47 +1300,76 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
         </EdgeLayout>
         <EdgeLayout
           Id="Package\productLine stage to nds.Paths[New Output]"
-          TopLeft="552.5,260.5">
+          TopLeft="313,257.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="233,34"
+              EndConnector="-102,41.9999999999999"
               Start="0,0"
-              End="233,26.5">
+              End="-102,34.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13" />
+                    End="0,16.9999999999999" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13"
-                    Point2="0,17"
-                    Point3="4,17" />
+                    Point1="0,16.9999999999999"
+                    Point2="0,20.9999999999999"
+                    Point3="-4,20.9999999999999" />
                   <mssgle:LineSegment
-                    End="229,17" />
+                    End="-97.9999999999999,20.9999999999999" />
                   <mssgle:CubicBezierSegment
-                    Point1="229,17"
-                    Point2="233,17"
-                    Point3="233,21" />
+                    Point1="-97.9999999999999,20.9999999999999"
+                    Point2="-102,20.9999999999999"
+                    Point3="-102,24.9999999999999" />
                   <mssgle:LineSegment
-                    End="233,26.5" />
+                    End="-102,34.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="89.40861328125,22,54.1827734375,11.43359375"
+              BoundingBox="-78.0913867187499,25.9999999999999,54.1827734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <AnnotationLayout
-          Text="S"
-          ParentId="Package\productLine stage to nds"
-          FontInfo="{assembly:Null}"
-          Size="35,40"
-          Id="d0082346-c6c7-4f63-9181-10cfe4084550"
-          TopLeft="860,83" />
+        <EdgeLayout
+          Id="Package\productLine stage to nds.Paths[Changing Attribute Updates Output]"
+          TopLeft="347.666666666667,257.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="115.333333333333,41.9999999999999"
+              Start="0,0"
+              End="115.333333333333,34.4999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.985294117647" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.985294117647"
+                    Point2="0,16.985294117647"
+                    Point3="4,16.985294117647" />
+                  <mssgle:LineSegment
+                    End="111.333333333333,16.985294117647" />
+                  <mssgle:CubicBezierSegment
+                    Point1="111.333333333333,16.985294117647"
+                    Point2="115.333333333333,16.985294117647"
+                    Point3="115.333333333333,20.985294117647" />
+                  <mssgle:LineSegment
+                    End="115.333333333333,34.4999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-20.8672395833333,21.985294117647,157.0678125,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -1427,20 +1409,14 @@ WHERE (CreatedAt &gt;= ? AND CreatedAt &lt; getdate()) or (UpdatedAt &gt;= ? and
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
-    &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Add col sourceID.Outputs[Derived Column Output].Columns[sourceID]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;sourceID&lt;/ColumnName&gt;
-      &lt;KeyType&gt;None&lt;/KeyType&gt;
-      &lt;ChangeType&gt;FixedAttribute&lt;/ChangeType&gt;
-    &lt;/InputColumnToDBColumn&gt;
   &lt;/InputToColumnsCollection&gt;
   &lt;GeneratedComponentsIdentificationStrings&gt;
     &lt;anyType xsi:type="xsd:string"&gt;Insert Destination&lt;/anyType&gt;
     &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command&lt;/anyType&gt;
     &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
   &lt;/GeneratedComponentsIdentificationStrings&gt;
-  &lt;FailFixedAttribute&gt;true&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
+  &lt;FailChangeAttribute&gt;true&lt;/FailChangeAttribute&gt;
   &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
   &lt;CurrentIndicatorColumn /&gt;
   &lt;InferredIndicatorColumn /&gt;

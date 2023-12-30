@@ -7,12 +7,12 @@
   DTS:CreatorName="DUCAN\ducan"
   DTS:DTSID="{5144A711-14B9-4C35-9F35-6EC4CE0EC685}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5314.0"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
   DTS:LocaleID="1033"
   DTS:ObjectName="invoice_StageToNDS"
   DTS:PackageType="5"
-  DTS:VersionBuild="74"
-  DTS:VersionGUID="{4EC6BBCC-C252-463D-B78E-0D11C238346B}">
+  DTS:VersionBuild="77"
+  DTS:VersionGUID="{6344C2BA-93DE-4EC8-BB63-A1A578D89706}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -1250,7 +1250,7 @@ WHERE        (CreatedAt &gt;= ?) AND (CreatedAt &lt; getdate()) OR
                       name="GrossIncome" />
                     <externalMetadataColumn
                       refId="Package\invoice stage to invoiceDetail nds\insert invoiceDetail.Inputs[OLE DB Destination Input].ExternalColumns[sourceID]"
-                      dataType="i8"
+                      dataType="i4"
                       name="sourceID" />
                     <externalMetadataColumn
                       refId="Package\invoice stage to invoiceDetail nds\insert invoiceDetail.Inputs[OLE DB Destination Input].ExternalColumns[CreatedAt]"
@@ -1470,7 +1470,7 @@ WHERE        (CreatedAt &gt;= ?) AND (CreatedAt &lt; getdate()) OR
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\invoice stage to invoiceDetail nds\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
-                      dataType="i8"
+                      dataType="i4"
                       name="Param_7">
                       <properties>
                         <property
@@ -2515,26 +2515,6 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       name="Branch"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Customer type]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
-                      length="255"
-                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Customer type]"
-                      name="Customer type"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Gender]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
-                      length="255"
-                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Gender]"
-                      name="Gender"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
                       refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Payment]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
@@ -2572,6 +2552,26 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[InvoiceID]"
                       name="InvoiceID"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Customer type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
+                      length="255"
+                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Customer type]"
+                      name="Customer type"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Gender]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
+                      length="255"
+                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].Columns[Gender]"
+                      name="Gender"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2580,16 +2580,6 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       dataType="wstr"
                       length="255"
                       name="Branch" />
-                    <externalMetadataColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
-                      dataType="wstr"
-                      length="255"
-                      name="Customer type" />
-                    <externalMetadataColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
-                      dataType="wstr"
-                      length="255"
-                      name="Gender" />
                     <externalMetadataColumn
                       refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Payment]"
                       dataType="wstr"
@@ -2608,6 +2598,16 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       dataType="wstr"
                       length="255"
                       name="InvoiceID" />
+                    <externalMetadataColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Customer type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer type" />
+                    <externalMetadataColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Gender]"
+                      dataType="wstr"
+                      length="255"
+                      name="Gender" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -2627,18 +2627,6 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       length="255"
                       lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Branch]"
                       name="Branch" />
-                    <outputColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Customer type]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Customer type]"
-                      name="Customer type" />
-                    <outputColumn
-                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Gender]"
-                      dataType="wstr"
-                      length="255"
-                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Gender]"
-                      name="Gender" />
                     <outputColumn
                       refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Payment]"
                       dataType="wstr"
@@ -2667,6 +2655,18 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
                       lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                    <outputColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Customer type]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Customer type]"
+                      name="Customer type" />
+                    <outputColumn
+                      refId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Gender]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\invoice stage to nds\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Gender]"
+                      name="Gender" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -3314,14 +3314,6 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
-          Id="Package\invoice stage to nds"
-          TopLeft="114,366" />
-        <NodeLayout
-          Size="221,42"
-          Id="Package\invoice stage to invoiceDetail nds"
-          TopLeft="318,621.428571428571" />
-        <NodeLayout
           Size="179,42"
           Id="Package\get LSET from metadata"
           TopLeft="101,279" />
@@ -3329,6 +3321,14 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
           Size="179,42"
           Id="Package\get LSET from metadata 1"
           TopLeft="334,537.428571428571" />
+        <NodeLayout
+          Size="221,42"
+          Id="Package\invoice stage to invoiceDetail nds"
+          TopLeft="318,621.428571428571" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\invoice stage to nds"
+          TopLeft="114,366" />
         <NodeLayout
           Size="170,42"
           Id="Package\set CET to metadata"
@@ -3538,6 +3538,348 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\invoice stage to invoiceDetail nds">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="318,42"
+          Id="Package\invoice stage to invoiceDetail nds\check invoiceID and productID from invoiceDetail"
+          TopLeft="217.5,437.731884057971" />
+        <NodeLayout
+          Size="144,42"
+          Id="Package\invoice stage to invoiceDetail nds\add sourceID"
+          TopLeft="303.5,141.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\invoice stage to invoiceDetail nds\check productID"
+          TopLeft="295,226" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\invoice stage to invoiceDetail nds\get invoice from stage"
+          TopLeft="276,48" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\invoice stage to invoiceDetail nds\insert invoiceDetail"
+          TopLeft="492,634" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\invoice stage to invoiceDetail nds\check invoiceID from invoice"
+          TopLeft="284,313" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\invoice stage to invoiceDetail nds\add updatedAt"
+          TopLeft="108.5,525.5" />
+        <NodeLayout
+          Size="222,42"
+          Id="Package\invoice stage to invoiceDetail nds\add createdAt and updatedAt"
+          TopLeft="464,542" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\invoice stage to invoiceDetail nds\OLE DB Command"
+          TopLeft="99,616" />
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[OLE DB Source Output]"
+          TopLeft="372.25,90">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.5"
+              Start="0,0"
+              End="0,44">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup No Match Output]"
+          TopLeft="428.166666666667,479.731884057971">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="146.833333333333,62.268115942029"
+              Start="0,0"
+              End="146.833333333333,54.768115942029">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.0942845223196" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.0942845223196"
+                    Point2="0,25.0942845223196"
+                    Point3="4,25.0942845223196" />
+                  <mssgle:LineSegment
+                    End="142.833333333333,25.0942845223196" />
+                  <mssgle:CubicBezierSegment
+                    Point1="142.833333333333,25.0942845223196"
+                    Point2="146.833333333333,25.0942845223196"
+                    Point3="146.833333333333,29.0942845223196" />
+                  <mssgle:LineSegment
+                    End="146.833333333333,54.768115942029" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="17.6102799479167,30.0942845223196,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output2]"
+          TopLeft="324.833333333333,479.731884057971">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-141.333333333333,45.768115942029"
+              Start="0,0"
+              End="-141.333333333333,38.268115942029">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.444722569879" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.444722569879"
+                    Point2="0,18.444722569879"
+                    Point3="-4,18.444722569879" />
+                  <mssgle:LineSegment
+                    End="-137.333333333333,18.444722569879" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-137.333333333333,18.444722569879"
+                    Point2="-141.333333333333,18.444722569879"
+                    Point3="-141.333333333333,22.444722569879" />
+                  <mssgle:LineSegment
+                    End="-141.333333333333,38.268115942029" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-118.858053385417,23.444722569879,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output1]"
+          TopLeft="374.25,355">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,82.731884057971"
+              Start="0,0"
+              End="0,75.231884057971">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,75.231884057971" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,31.8112545289855,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output]"
+          TopLeft="373,268">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,12.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output2]"
+          TopLeft="184.5,567.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48.5"
+              Start="0,0"
+              End="0,41">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output1]"
+          TopLeft="576.25,584">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50"
+              Start="0,0"
+              End="0,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output]"
+          TopLeft="374.75,183.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.5"
+              Start="0,0"
+              End="0,35">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\invoice stage to invoiceDetail nds\check invoiceID and productID from invoiceDetail">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\invoice stage to invoiceDetail nds\check productID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\invoice stage to invoiceDetail nds\get invoice from stage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\invoice stage to invoiceDetail nds\insert invoiceDetail">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\invoice stage to invoiceDetail nds\check invoiceID from invoice">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\invoice stage to nds">
     <LayoutInfo>
@@ -3906,349 +4248,7 @@ where [refTable].[CustomerType] = ? and [refTable].[Gender] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\invoice stage to invoiceDetail nds">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="318,42"
-          Id="Package\invoice stage to invoiceDetail nds\check invoiceID and productID from invoiceDetail"
-          TopLeft="217.5,437.731884057971" />
-        <NodeLayout
-          Size="144,42"
-          Id="Package\invoice stage to invoiceDetail nds\add sourceID"
-          TopLeft="303.5,141.5" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\invoice stage to invoiceDetail nds\check productID"
-          TopLeft="295,226" />
-        <NodeLayout
-          Size="186,42"
-          Id="Package\invoice stage to invoiceDetail nds\get invoice from stage"
-          TopLeft="276,48" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\invoice stage to invoiceDetail nds\insert invoiceDetail"
-          TopLeft="492,634" />
-        <NodeLayout
-          Size="176,42"
-          Id="Package\invoice stage to invoiceDetail nds\check invoiceID from invoice"
-          TopLeft="284,313" />
-        <NodeLayout
-          Size="150,42"
-          Id="Package\invoice stage to invoiceDetail nds\add updatedAt"
-          TopLeft="108.5,525.5" />
-        <NodeLayout
-          Size="222,42"
-          Id="Package\invoice stage to invoiceDetail nds\add createdAt and updatedAt"
-          TopLeft="464,542" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\invoice stage to invoiceDetail nds\OLE DB Command"
-          TopLeft="99,616" />
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[OLE DB Source Output]"
-          TopLeft="372.25,90">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51.5"
-              Start="0,0"
-              End="0,44">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup No Match Output]"
-          TopLeft="428.166666666667,479.731884057971">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="146.833333333333,62.268115942029"
-              Start="0,0"
-              End="146.833333333333,54.768115942029">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.0942845223196" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.0942845223196"
-                    Point2="0,25.0942845223196"
-                    Point3="4,25.0942845223196" />
-                  <mssgle:LineSegment
-                    End="142.833333333333,25.0942845223196" />
-                  <mssgle:CubicBezierSegment
-                    Point1="142.833333333333,25.0942845223196"
-                    Point2="146.833333333333,25.0942845223196"
-                    Point3="146.833333333333,29.0942845223196" />
-                  <mssgle:LineSegment
-                    End="146.833333333333,54.768115942029" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="17.6102799479167,30.0942845223196,111.6127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output2]"
-          TopLeft="324.833333333333,479.731884057971">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-141.333333333333,45.768115942029"
-              Start="0,0"
-              End="-141.333333333333,38.268115942029">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.444722569879" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.444722569879"
-                    Point2="0,18.444722569879"
-                    Point3="-4,18.444722569879" />
-                  <mssgle:LineSegment
-                    End="-137.333333333333,18.444722569879" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-137.333333333333,18.444722569879"
-                    Point2="-141.333333333333,18.444722569879"
-                    Point3="-141.333333333333,22.444722569879" />
-                  <mssgle:LineSegment
-                    End="-141.333333333333,38.268115942029" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-118.858053385417,23.444722569879,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output1]"
-          TopLeft="374.25,355">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,82.731884057971"
-              Start="0,0"
-              End="0,75.231884057971">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,75.231884057971" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,31.8112545289855,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Lookup Match Output]"
-          TopLeft="373,268">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45"
-              Start="0,0"
-              End="0,37.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,12.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output2]"
-          TopLeft="184.5,567.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48.5"
-              Start="0,0"
-              End="0,41">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output1]"
-          TopLeft="576.25,584">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,50"
-              Start="0,0"
-              End="0,42.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,42.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\invoice stage to invoiceDetail nds.Paths[Derived Column Output]"
-          TopLeft="374.75,183.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42.5"
-              Start="0,0"
-              End="0,35">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\invoice stage to invoiceDetail nds\check invoiceID and productID from invoiceDetail">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\invoice stage to invoiceDetail nds\check productID">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\invoice stage to invoiceDetail nds\get invoice from stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\invoice stage to invoiceDetail nds\insert invoiceDetail">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\invoice stage to invoiceDetail nds\check invoiceID from invoice">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
